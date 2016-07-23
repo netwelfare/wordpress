@@ -456,12 +456,13 @@ case "open":
 </span><div class="clearfix"></div></div>
 <div class="rm_options">
 <?php break; }} ?>
+<!--  
 <span class="show_id">
 <p><strong>高时银博客提示：</strong></p>
 <p>首次使用Ssmay主题，必须按照您的需要，设置好每个选项，并全都保存一次，否则可能会错位！</p>
 <p><font color=#ff0000> &hearts; </font><strong>自愿捐助</strong>：Ssmay主题目前完全免费，如果能获得些许捐助，高时银博客会更有动力去升级完善主题，为您提供更好的技术支持！</p>
 <p>支付宝：gaoshiyin2008@aliyun.com (捐助前，请务必前往 http://wanlimm.com 或QQ（909198831）与高时银博客取得联系)</p>
-</span>
+</span>-->
 <input type="hidden" name="action" value="save" />
 </form>
 <form method="post">
