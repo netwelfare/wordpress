@@ -1,0 +1,30 @@
+第一步：下载XAMPP，https://www.apachefriends.org/zh_cn/index.html
+第二步：打开xdebug功能：
+[Xdebug]
+zend_extension="C:\xampp\php\ext\php_xdebug.dll"
+xdebug.auto_trace = On
+xdebug.show_exception_trace = On
+xdebug.remote_autostart = On
+xdebug.remote_enable = On
+xdebug.remote_host = 127.0.0.1
+xdebug.remote_port = 9000
+xdebug.remote_handler = dbgp
+xdebug.profiler_enable = on
+xdebug.profiler_output_dir="C:\xampp\php\logs"
+第三步：设定虚拟目录到eclipse的工程
+<IfModule alias_module>
+    ScriptAlias /cgi-bin/ "C:/xampp/cgi-bin/"
+    Alias /workspace/ "C:/Users/Administrator/workspace_php/"
+</IfModule>
+第四步：设置目录可以访问
+<Directory />
+    AllowOverride none
+    Require all granted
+</Directory>
+第五步：修改Eclipse的Web Browser，可以使用内部的，IE，系统内部的浏览器。
+第六步：PHP Server，只要设置一个name，然后对应Server的root目录就可以了，这就表明一个服务器，但是要注意：需要在外边启动服务器的。
+		path mapping不需要考虑的。
+第七步：配置php的执行引擎：name，path，ini文件，debugger调试器
+第八步：配置调试工具。包括配置PHPserver，执行引擎。
+第九步：debug config：要注意的是url，前面是php server，后面部分必须要填写虚拟目录部分
+
