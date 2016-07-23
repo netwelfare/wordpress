@@ -15,7 +15,7 @@ img,input,select{vertical-align:middle; display:inline-block;}
 article,aside,dialog,footer,header,section,footer,nav,figure,menu{display:block}
 
 /* link 默认链接颜色为蓝色 */
-a:hover{color:#ba2636; text-decoration:underline;} /* 默认属标放上去字体颜色为红色#ba2636 */
+/* a:hover{color:#ba2636; text-decoration:underline;} /* 默认属标放上去字体颜色为红色#ba2636 */
 /*图片引用*/
 .logo a,.logos,.f_list span{background:url(../images/com_hf.png?t=20130408) no-repeat;}
 .wrap_kf .kfGray,/*.kf_btn1,.kf_btn2,*/.info_cot span,.deadline_popo .tp_star,.deadline_popo .close,.other_info dd span,.other_info3 dd span,.icon_al,.icon_tp,.icon_tk,.icon_pa,.icon_yg,.icon_rb,.other_info dd span,.other_info3 dd span,.step_wrap span,.calendar_box .calendar_close,.icon_ok2,.icon_question{background:url(../images/icon.png?t=20130822) no-repeat;}
