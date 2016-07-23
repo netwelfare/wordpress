@@ -1,0 +1,868 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: wp_thumbnails\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-04-30 12:48+0800\n"
+"PO-Revision-Date: 2010-04-30 12:48+0800\n"
+"Last-Translator: niaolei.org.cn <9000birds@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;gettext;gettext_noop;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: ta_options.php:10
+msgid "WP-Thumbnails"
+msgstr "WP-Thumbnails"
+
+#: ta_options.php:504
+msgid "<h3>随机日志</h3>"
+msgstr "<h3>隨機文章</h3>"
+
+#: ta_options.php:508
+msgid "<h3>相关日志</h3>"
+msgstr "<h3>相關文章</h3>"
+
+#: ta_options.php:789
+msgid "设置缩略图 WP-Thumbnails"
+msgstr "設置縮略圖 WP-Thumbnails"
+
+#: ta_options.php:794
+msgid "插件名称"
+msgstr "外掛名稱"
+
+#: ta_options.php:795
+msgid "插件作者"
+msgstr "外掛作者"
+
+#: ta_options.php:795
+msgid "布谷鸟"
+msgstr "布穀鳥"
+
+#: ta_options.php:795
+msgid "鸟类网|分享鸟趣"
+msgstr "鳥類網│分享鳥趣"
+
+#: ta_options.php:796
+#: ta_options.php:798
+msgid "插件主页"
+msgstr "外掛主頁"
+
+#: ta_options.php:797
+msgid "插件提示"
+msgstr "外掛提示"
+
+#: ta_options.php:797
+msgid "插件原理是每打开一篇日志生成相应的缩略图, 所以安装插件后请回首页点开几篇日志, 插件就会自动生成缩略图。遇到问题请先看"
+msgstr "外掛原理是每打開一篇文章生成相應的縮略圖，所以安裝外掛後請返回首頁點開幾篇文章，外掛就會自動生成縮略圖，遇到問題請先看 "
+
+#: ta_options.php:797
+msgid "《插件常见问题》"
+msgstr "《外掛常見問題》"
+
+#: ta_options.php:798
+msgid "安装遇到困难、安装成功、发现错误、问题咨询、特别需求和功能建议请到"
+msgstr "安裝遇到困難、安裝成功、發現錯誤、問題諮詢、特別需求和功能建議請到"
+
+#: ta_options.php:798
+msgid "留言。"
+msgstr "留言。"
+
+#: ta_options.php:799
+msgid "插件捐赠"
+msgstr "插件捐贈"
+
+#: ta_options.php:799
+msgid "如果你觉得插件不错，愿意支持插件的继续发展，请到WP-Thumbnails的淘宝网店购买一份支持，1元起，聊表心意即可，在此深表感谢。"
+msgstr "如果你覺得外掛不錯，願意支持外掛的繼續發展，請到WP-Thumbnails的淘寶網店購買一分支持，1元起，聊表心意即可，在此深表感謝。"
+
+#: ta_options.php:803
+msgid "排除和指定"
+msgstr "排除和指定"
+
+#: ta_options.php:806
+#: ta_options.php:811
+msgid "缩略图来源"
+msgstr "縮略圖來源"
+
+#: ta_options.php:807
+msgid "来自每篇日志的第一张图片"
+msgstr "來自每篇文章的第一章圖片"
+
+#: ta_options.php:807
+msgid "来自任意图片"
+msgstr "來自任意圖片"
+
+#: ta_options.php:807
+msgid "每篇日志至多提取"
+msgstr "每篇文章最多提取"
+
+#: ta_options.php:807
+#: ta_options.php:998
+#: ta_options.php:1034
+#: ta_options.php:1066
+#: ta_options.php:1118
+#: ta_options.php:1169
+#: ta_options.php:1225
+#: ta_options.php:1278
+#: ta_options.php:1330
+msgid "张"
+msgstr "張"
+
+#: ta_options.php:812
+msgid "只显示日志缩略图"
+msgstr "只顯示文章縮略圖"
+
+#: ta_options.php:812
+msgid "显示日志缩略图和页面缩略图"
+msgstr "顯示文章縮略圖和頁面縮略圖"
+
+#: ta_options.php:816
+msgid "排除标签"
+msgstr "排除標籤"
+
+#: ta_options.php:817
+msgid "不显示该标签所在日志的缩略图, 多个标签以英文逗号, 隔开"
+msgstr "不顯示該標籤所在文章的縮略圖，多個標籤以英文半形逗號分隔 "
+
+#: ta_options.php:821
+msgid "指定分类"
+msgstr "指定文章分類"
+
+#: ta_options.php:822
+msgid "仅显示选中分类"
+msgstr "僅顯示選擇的文章分類"
+
+#: ta_options.php:822
+msgid "显示全部分类"
+msgstr "顯示全部文章分類"
+
+#: ta_options.php:847
+msgid "设置外链图片"
+msgstr "設置外連圖片"
+
+#: ta_options.php:848
+msgid "更改外链设置后, 需要点击本页底部“彻底清理插件”才能生效。"
+msgstr "更改外連設置後，需要點擊本頁底部的“徹底清理外掛”才能生效。"
+
+#: ta_options.php:850
+msgid "如何处理外链图片"
+msgstr "如何處理外連圖片"
+
+#: ta_options.php:851
+msgid "自动下载外链图片到本地, 自动生成缩略图。(Yupoo等相册可以直接调用外链缩略图)"
+msgstr "自動下載外連圖片到本地，自動生成縮略圖。（Yupoo 等相簿網站可以直接調用外連縮略圖）"
+
+#: ta_options.php:851
+msgid "(有些博客受主机环境所限制, 无法下载远程图片) 不制作缩略图, 将原图片缩小显示, 图片有可能变形。 "
+msgstr "（有些部落格受虛擬主機環境所限制，無法下載遠端圖片）不製作縮略圖，將原圖片縮小顯示，圖片有可能變形。"
+
+#: ta_options.php:851
+msgid "(有些博客受主机环境所限制, 无法下载远程图片) 忽略一切外链图片, 完全不显示。"
+msgstr "（有些部落格受虛擬主機環境所限制，無法下載遠端圖片）忽略一切外連圖片，完全不顯示。"
+
+#: ta_options.php:855
+msgid "Picasa图片"
+msgstr "Picasa圖片"
+
+#: ta_options.php:856
+#: ta_options.php:861
+#: ta_options.php:866
+msgid "使用外链缩略图"
+msgstr "使用外連縮略圖"
+
+#: ta_options.php:856
+#: ta_options.php:861
+#: ta_options.php:866
+msgid "制作本地缩略图"
+msgstr "製作本地縮略圖"
+
+#: ta_options.php:860
+msgid "Flickr图片"
+msgstr "Flickr 圖片"
+
+#: ta_options.php:865
+msgid "Yupoo图片"
+msgstr "Yupoo 圖片"
+
+#: ta_options.php:871
+msgid "自动启用"
+msgstr "自動啟用"
+
+#: ta_options.php:876
+msgid "自动启用首页页面缩略图"
+msgstr "自動啟用首頁頁面縮略圖"
+
+#: ta_options.php:877
+#: ta_options.php:882
+#: ta_options.php:887
+#: ta_options.php:892
+msgid "单张"
+msgstr "單張"
+
+#: ta_options.php:877
+#: ta_options.php:882
+#: ta_options.php:887
+#: ta_options.php:892
+msgid "全排"
+msgstr "全排"
+
+#: ta_options.php:877
+#: ta_options.php:882
+#: ta_options.php:887
+#: ta_options.php:892
+msgid "智能"
+msgstr "智能"
+
+#: ta_options.php:881
+msgid "自动启用分类页面缩略图"
+msgstr "自動啟用分類頁面縮略圖"
+
+#: ta_options.php:886
+msgid "自动启用标签页面缩略图"
+msgstr "自動啟用標籤頁面縮略圖"
+
+#: ta_options.php:891
+msgid "自动启用搜索页面缩略图"
+msgstr "自動啟用搜索頁面縮略圖"
+
+#: ta_options.php:896
+msgid "以上内容截断摘要"
+msgstr "以上內容截斷摘要"
+
+#: ta_options.php:898
+msgid "摘要长度"
+msgstr "摘要長度"
+
+#: ta_options.php:898
+msgid "汉字"
+msgstr "漢字"
+
+#: ta_options.php:900
+msgid "摘要结尾链接文字"
+msgstr "摘要結尾鏈接文字"
+
+#: ta_options.php:902
+#: ta_options.php:910
+msgid "(清空则不显示)"
+msgstr "(清空則不顯示)"
+
+#: ta_options.php:907
+#: ta_options.php:914
+#: ta_options.php:921
+msgid "自动在文章后面插入"
+msgstr "自動在文章後面插入"
+
+#: ta_options.php:907
+msgid "随机日志缩略图"
+msgstr "隨機文章縮略圖"
+
+#: ta_options.php:909
+#: ta_options.php:916
+#: ta_options.php:923
+msgid "显示标题为"
+msgstr "顯示標題為"
+
+#: ta_options.php:914
+msgid "相关日志缩略图"
+msgstr "相關文章縮略圖"
+
+#: ta_options.php:921
+msgid "该文章自身全部缩略图"
+msgstr "該文章自身全部縮略圖"
+
+#: ta_options.php:928
+#: ta_options.php:971
+#: ta_options.php:1022
+#: ta_options.php:1044
+#: ta_options.php:1091
+#: ta_options.php:1142
+#: ta_options.php:1198
+#: ta_options.php:1255
+#: ta_options.php:1308
+#: ta_options.php:1360
+msgid "点击更新设置 &raquo;"
+msgstr "點擊更新設定  &raquo;"
+
+#: ta_options.php:933
+#: ta_options.php:1034
+msgid "首页缩略图"
+msgstr "首頁縮略圖"
+
+#: ta_options.php:936
+#: ta_options.php:992
+#: ta_options.php:1060
+#: ta_options.php:1112
+#: ta_options.php:1163
+#: ta_options.php:1219
+#: ta_options.php:1272
+#: ta_options.php:1324
+msgid "尺寸"
+msgstr "尺寸"
+
+#: ta_options.php:937
+#: ta_options.php:993
+#: ta_options.php:1061
+#: ta_options.php:1113
+#: ta_options.php:1164
+#: ta_options.php:1220
+#: ta_options.php:1273
+#: ta_options.php:1325
+msgid "宽度"
+msgstr "寬度"
+
+#: ta_options.php:937
+#: ta_options.php:993
+#: ta_options.php:998
+#: ta_options.php:1061
+#: ta_options.php:1066
+#: ta_options.php:1113
+#: ta_options.php:1118
+#: ta_options.php:1164
+#: ta_options.php:1169
+#: ta_options.php:1220
+#: ta_options.php:1225
+#: ta_options.php:1273
+#: ta_options.php:1278
+#: ta_options.php:1325
+#: ta_options.php:1330
+msgid "像素"
+msgstr "像素"
+
+#: ta_options.php:937
+#: ta_options.php:993
+#: ta_options.php:1061
+#: ta_options.php:1113
+#: ta_options.php:1164
+#: ta_options.php:1220
+#: ta_options.php:1273
+#: ta_options.php:1325
+msgid "高度"
+msgstr "高度"
+
+#: ta_options.php:941
+msgid "裁剪"
+msgstr "裁剪圖片大小"
+
+#: ta_options.php:942
+msgid "智能保持原图比例"
+msgstr "智能保持原圖比例"
+
+#: ta_options.php:942
+msgid "精确裁剪成上述宽度和高度"
+msgstr "精確裁剪成上述寬度和高度"
+
+#: ta_options.php:946
+#: ta_options.php:1002
+msgid "位置"
+msgstr "位置"
+
+#: ta_options.php:947
+msgid "靠左显示"
+msgstr "靠左顯示"
+
+#: ta_options.php:947
+msgid "靠右显示"
+msgstr "靠右顯示"
+
+#: ta_options.php:947
+msgid "左右随机出现"
+msgstr "左右隨機出現"
+
+#: ta_options.php:947
+msgid "居中显示(居中的时候文字无法环绕, 图片尺寸设大一点会比较美观)"
+msgstr "居中顯示（居中的時候文字無法環繞，圖片尺寸設大一點會比較美觀）"
+
+#: ta_options.php:951
+#: ta_options.php:1007
+#: ta_options.php:1076
+#: ta_options.php:1127
+#: ta_options.php:1183
+#: ta_options.php:1235
+#: ta_options.php:1288
+#: ta_options.php:1340
+msgid "窗口"
+msgstr "圖片開啟視窗"
+
+#: ta_options.php:952
+#: ta_options.php:1008
+#: ta_options.php:1077
+#: ta_options.php:1128
+#: ta_options.php:1184
+#: ta_options.php:1236
+#: ta_options.php:1289
+#: ta_options.php:1341
+msgid "在新窗口中打开"
+msgstr "在新視窗開啟"
+
+#: ta_options.php:952
+#: ta_options.php:1008
+#: ta_options.php:1077
+#: ta_options.php:1128
+#: ta_options.php:1184
+#: ta_options.php:1236
+#: ta_options.php:1289
+#: ta_options.php:1341
+msgid "在当前窗口打开"
+msgstr "在目前視窗開啟"
+
+#: ta_options.php:956
+#: ta_options.php:1012
+#: ta_options.php:1081
+#: ta_options.php:1132
+#: ta_options.php:1188
+#: ta_options.php:1240
+#: ta_options.php:1293
+#: ta_options.php:1345
+msgid "链接目标"
+msgstr "連結目標"
+
+#: ta_options.php:957
+#: ta_options.php:1013
+#: ta_options.php:1082
+#: ta_options.php:1133
+#: ta_options.php:1189
+#: ta_options.php:1241
+#: ta_options.php:1294
+#: ta_options.php:1346
+msgid "点击打开日志"
+msgstr "點擊圖片開啟文章"
+
+#: ta_options.php:957
+#: ta_options.php:1013
+#: ta_options.php:1082
+#: ta_options.php:1133
+#: ta_options.php:1189
+#: ta_options.php:1241
+#: ta_options.php:1294
+#: ta_options.php:1346
+msgid "点击打开原始大图"
+msgstr "點擊圖片開啟原始大圖"
+
+#: ta_options.php:961
+msgid "默认图片"
+msgstr "預設圖片"
+
+#: ta_options.php:962
+msgid "日志中不存在图片时, 如果要显示默认缩略图片, 请填写图片地址。"
+msgstr "文章中不存在圖片時，如果要顯示預設縮略圖片，請填寫圖片網址。"
+
+#: ta_options.php:962
+msgid "例如"
+msgstr "例如"
+
+#: ta_options.php:962
+msgid "最好是本地图片。"
+msgstr "最好是本地圖片。"
+
+#: ta_options.php:966
+#: ta_options.php:1017
+#: ta_options.php:1039
+#: ta_options.php:1086
+#: ta_options.php:1137
+#: ta_options.php:1193
+#: ta_options.php:1250
+#: ta_options.php:1303
+#: ta_options.php:1355
+msgid "调用代码"
+msgstr "調用代碼"
+
+#: ta_options.php:967
+msgid "代码放置于首页模板, 置于the_content或the_excerpt之前。"
+msgstr "代碼放置於首頁模板（index.php），放在 the_content 或 the_excerpt 之前。"
+
+#: ta_options.php:975
+#: ta_options.php:1095
+#: ta_options.php:1146
+#: ta_options.php:1202
+msgid "预览"
+msgstr "預覽"
+
+#: ta_options.php:984
+msgid "全排列缩略图"
+msgstr "全排列縮略圖"
+
+#: ta_options.php:987
+#: ta_options.php:1055
+#: ta_options.php:1107
+#: ta_options.php:1158
+#: ta_options.php:1214
+#: ta_options.php:1267
+#: ta_options.php:1319
+msgid "功能说明"
+msgstr "功能說明"
+
+#: ta_options.php:988
+msgid "将该日志内所有的图片以缩略图形式排列出来, 也即一次显示多张图片的“首页缩略图”。"
+msgstr "將指定文章內所有的圖片以縮略圖形式排列出來，也就是一次顯示多張圖片的首頁縮略圖。"
+
+#: ta_options.php:997
+#: ta_options.php:1065
+#: ta_options.php:1117
+#: ta_options.php:1168
+#: ta_options.php:1224
+#: ta_options.php:1277
+#: ta_options.php:1329
+msgid "数量"
+msgstr "數量"
+
+#: ta_options.php:998
+msgid "显示至多"
+msgstr "最多顯示"
+
+#: ta_options.php:998
+msgid "每行不超过"
+msgstr "每行不超過"
+
+#: ta_options.php:998
+#: ta_options.php:1066
+#: ta_options.php:1118
+#: ta_options.php:1169
+#: ta_options.php:1225
+#: ta_options.php:1278
+#: ta_options.php:1330
+msgid "图片间距"
+msgstr "圖片間距"
+
+#: ta_options.php:1003
+msgid "普通显示, 不环绕"
+msgstr "普通顯示，不環繞 "
+
+#: ta_options.php:1003
+msgid "靠左显示, 文字环绕"
+msgstr "靠左顯示，文字環繞 "
+
+#: ta_options.php:1003
+msgid "靠右显示, 文字环绕"
+msgstr "靠右顯示，文字環繞 "
+
+#: ta_options.php:1018
+msgid "代码放置于首页模板, 置于the_content或the_excerpt之后, 以实现首页排列出每篇日志多张缩略图的效果。当然, 也可以放置在单篇日志页single.php的任意位置。"
+msgstr "代碼放置於首頁模板（index.php），放在 the_content 或 the_excerpt 之後，以實現首頁排列出每篇文章多張縮略圖的效果。當然，也可以放在單篇文章 single.php 的任意位置。"
+
+#: ta_options.php:1030
+msgid "智能方式调用首页缩略图: (结合上面两种方式)"
+msgstr "智能方式調用首頁縮略圖：（結合上面兩種方法）"
+
+#: ta_options.php:1033
+msgid "智能调用"
+msgstr "智能調用"
+
+#: ta_options.php:1034
+msgid "如果日志内图片少于"
+msgstr "如果日誌內圖片少於"
+
+#: ta_options.php:1034
+msgid "那么调用"
+msgstr "那麼調用"
+
+#: ta_options.php:1034
+msgid "否则排列显示该日志内所有缩略图。"
+msgstr "否則排列顯示該文章內所有縮略圖"
+
+#: ta_options.php:1034
+msgid "仍然在上面两种方式处进行设置。"
+msgstr "仍然在上面兩種方法外進行設置。"
+
+#: ta_options.php:1040
+msgid "代码放置于首页模板, 置于the_content或the_excerpt之后。"
+msgstr "代碼放置於首頁模板（index.php），放在 the_content 或 the_excerpt 之後。"
+
+#: ta_options.php:1052
+msgid "随机缩略图"
+msgstr "隨機縮略圖"
+
+#: ta_options.php:1056
+msgid "显示随机文章的缩略图。"
+msgstr "顯示隨機文章的縮略圖。"
+
+#: ta_options.php:1066
+#: ta_options.php:1169
+#: ta_options.php:1225
+#: ta_options.php:1278
+#: ta_options.php:1330
+msgid "显示"
+msgstr "顯示"
+
+#: ta_options.php:1070
+#: ta_options.php:1071
+#: ta_options.php:1122
+#: ta_options.php:1123
+#: ta_options.php:1173
+#: ta_options.php:1174
+#: ta_options.php:1229
+#: ta_options.php:1230
+#: ta_options.php:1282
+#: ta_options.php:1283
+#: ta_options.php:1334
+#: ta_options.php:1335
+msgid "标题"
+msgstr "標題"
+
+#: ta_options.php:1071
+#: ta_options.php:1123
+#: ta_options.php:1174
+#: ta_options.php:1179
+#: ta_options.php:1230
+#: ta_options.php:1283
+#: ta_options.php:1335
+msgid "不显示"
+msgstr "不顯示"
+
+#: ta_options.php:1071
+#: ta_options.php:1123
+#: ta_options.php:1174
+#: ta_options.php:1230
+#: ta_options.php:1283
+#: ta_options.php:1335
+msgid "显示日志标题"
+msgstr "顯示文章標題"
+
+#: ta_options.php:1071
+#: ta_options.php:1123
+#: ta_options.php:1174
+#: ta_options.php:1230
+#: ta_options.php:1283
+#: ta_options.php:1335
+msgid "标题显示在图片的"
+msgstr "標題顯示在圖片的"
+
+#: ta_options.php:1071
+#: ta_options.php:1123
+#: ta_options.php:1174
+#: ta_options.php:1230
+#: ta_options.php:1283
+#: ta_options.php:1335
+msgid "上方"
+msgstr "上方"
+
+#: ta_options.php:1071
+#: ta_options.php:1123
+#: ta_options.php:1174
+#: ta_options.php:1230
+#: ta_options.php:1283
+#: ta_options.php:1335
+msgid "下方"
+msgstr "下方"
+
+#: ta_options.php:1071
+#: ta_options.php:1123
+#: ta_options.php:1174
+#: ta_options.php:1230
+#: ta_options.php:1283
+#: ta_options.php:1335
+msgid "完整显示(对多行多列的显示效果有影响) "
+msgstr "完整顯示（對多行多列的顯示效果有影響）"
+
+#: ta_options.php:1071
+#: ta_options.php:1123
+#: ta_options.php:1174
+#: ta_options.php:1230
+#: ta_options.php:1283
+#: ta_options.php:1335
+msgid "截断标题使之显示在一行内"
+msgstr "截斷標題，使標題顯示在一行之內"
+
+#: ta_options.php:1087
+#: ta_options.php:1138
+#: ta_options.php:1194
+#: ta_options.php:1356
+msgid "代码放置于任意位置"
+msgstr "代碼放置於任意位置"
+
+#: ta_options.php:1104
+msgid "最新缩略图"
+msgstr "最新文章縮略圖"
+
+#: ta_options.php:1108
+msgid "显示最新文章的缩略图。"
+msgstr "顯示最新文章的縮略圖。"
+
+#: ta_options.php:1155
+msgid "最热门日志缩略图: (必须先启用访问统计插件WP-PostViews)"
+msgstr "最熱門文章縮略圖：（必須先啟用訪問統計外掛 WP-PostViews）"
+
+#: ta_options.php:1159
+msgid "根据访客点击数, 显示最热门文章的缩略图。"
+msgstr "根據訪客點擊數，顯示最熱門文章的縮略圖。"
+
+#: ta_options.php:1178
+msgid "统计显示"
+msgstr "統計顯示"
+
+#: ta_options.php:1179
+msgid "文章统计数"
+msgstr "文章統計數"
+
+#: ta_options.php:1179
+msgid "显示文章统计数 , 统计结果显示为"
+msgstr "顯示文章統計數，統計結果顯示為"
+
+#: ta_options.php:1211
+msgid "相关缩略图"
+msgstr "相關文章縮略圖"
+
+#: ta_options.php:1215
+msgid "根据标签的相关性, 显示相关文章的缩略图。"
+msgstr "根據標籤的相關性，顯示相關文章的縮略圖。"
+
+#: ta_options.php:1225
+msgid "当相关缩略图数量不足时"
+msgstr "當相關縮略圖數量不足時"
+
+#: ta_options.php:1225
+msgid "用随机缩略图补全"
+msgstr "用隨機縮略圖補足"
+
+#: ta_options.php:1225
+msgid "不补全"
+msgstr "不補足"
+
+#: ta_options.php:1245
+#: ta_options.php:1298
+#: ta_options.php:1350
+msgid "顺序"
+msgstr "順序"
+
+#: ta_options.php:1246
+#: ta_options.php:1299
+#: ta_options.php:1351
+msgid "随机"
+msgstr "隨機"
+
+#: ta_options.php:1246
+#: ta_options.php:1299
+#: ta_options.php:1351
+msgid "按时间"
+msgstr "按時間"
+
+#: ta_options.php:1251
+msgid "代码放置于日志页面模板任意位置"
+msgstr "代碼放置於文章頁面模板（single.php）任意位置"
+
+#: ta_options.php:1264
+msgid "分类缩略图"
+msgstr "文章分類縮略圖"
+
+#: ta_options.php:1268
+msgid "显示当前分类下的文章缩略图, 也可以显示指定分类id下的缩略图。"
+msgstr "顯示當前分類下的文章縮略圖, 也可以顯示指定分類id下的縮略圖。"
+
+#: ta_options.php:1304
+msgid "代码放置于分类页面模板任意位置"
+msgstr "代碼放置於文章分類頁面模板任意位置"
+
+#: ta_options.php:1316
+msgid "标签缩略图"
+msgstr "標籤縮略圖"
+
+#: ta_options.php:1320
+msgid "显示当前标签下的文章缩略图, 也可以显示多个指定标签id下的缩略图。"
+msgstr "顯示當前標籤下的文章縮略圖，也可以顯示多個指定標籤id下的縮略圖。"
+
+#: ta_options.php:1356
+msgid "参数为tag的id，可以显示多个标签的缩略图"
+msgstr "參數為tag的id，可以顯示多個標籤的縮略圖。"
+
+#: ta_options.php:1373
+msgid "清理和重置"
+msgstr "清理和重設"
+
+#: ta_options.php:1374
+msgid "三种清理方式一个比一个彻底, 如果启用了缓存插件, 清理完后务必再清空一下缓存。"
+msgstr "三種清理方式一個比一個徹底，如果啟用了快取外掛，清理完後務必再清空快取。"
+
+#: ta_options.php:1378
+msgid "如果你把尺寸改来改去, 导致生成了很多规格的缩略图。但你现在不需要这些缩略图了, 那么可以试试全部删掉。"
+msgstr "如果你把縮略圖尺寸改來改去，導致生成了很多規格的縮略圖，但你現在不需要這些縮略圖了，那麼可以試試全部刪除。"
+
+#: ta_options.php:1379
+msgid "然后插件会根据你现在设置的尺寸自动生成缩略图。"
+msgstr "然後外掛會根據你現在設置的尺寸自動生成縮略圖。"
+
+#: ta_options.php:1380
+msgid "如果你使用过低于thumbnails anywhere 2.2.3的版本, 点此清理旧版本多余的缩略图。"
+msgstr "如果你使用低於本外掛 2.2.3 的版本，點此清理舊版本多餘的縮略圖。"
+
+#: ta_options.php:1381
+msgid "点击重新生成所有的缩略图 &raquo;  慎用！"
+msgstr "點擊重新生成所有的縮略圖 &raquo;     慎用！"
+
+#: ta_options.php:1385
+msgid "如果你的空间有限, 可以一键清理下载到本地的原图, 即删除/wp-content/uploads/ta-thumbnails-cache/TAdownload文件夹下所有图片。"
+msgstr "如果你的主機空間有限，可以一鍵清理下載到本地的原圖，意即刪除 /wp-content/uploads/ta-thumbnails-cache/TAdownload 資料夾裏所有的圖片。"
+
+#: ta_options.php:1386
+msgid "这样做的前提是:后台的缩略图尺寸都不再改动, 即不需要生成和调用新尺寸的图片。只要不再改动尺寸, 已有的缩略图仍然可以正常显示。"
+msgstr "這樣做的前提是：後台縮略圖尺寸都不再更改，即不需要生成和調用新尺寸的圖片。只要不再更改尺寸，已有的縮略圖仍然可以正常顯示。"
+
+#: ta_options.php:1387
+msgid "点击清理下载的远程文件 &raquo;  慎用！"
+msgstr "點擊清理下載的遠端圖片檔案  &raquo;   慎用！"
+
+#: ta_options.php:1391
+msgid "当旧版插件生成的缩略图有问题时, 一键清理数据库并删除所有下载的、生成的缩略图。之后逐一点开日志, 插件会重新生成缩略图。"
+msgstr "當舊版外掛生成的縮略圖有問題時，一鍵清理資料庫並刪除所有下載的、生成的縮略圖。之後一一點開文章，外掛會重新生成縮略圖。"
+
+#: ta_options.php:1392
+msgid "点击彻底清理 &raquo;  慎用！"
+msgstr "點擊徹底清理  &raquo;   慎用！"
+
+#: ta_widget.php:40
+#: ta_widget.php:85
+#: ta_widget.php:129
+#: ta_widget.php:174
+msgid "Title:"
+msgstr "標題："
+
+#: wp_thumbnails.php:48
+#: wp_thumbnails.php:57
+#: wp_thumbnails.php:66
+msgid "提示：很抱歉，无法创建缩略图目录，请手动创建目录 "
+msgstr "提示：很抱歉，無法建立縮略圖資料夾，請手動建立資料夾"
+
+#: wp_thumbnails.php:48
+#: wp_thumbnails.php:57
+#: wp_thumbnails.php:66
+msgid "权限设置为755."
+msgstr "資料夾權限設置為 755"
+
+#~ msgid "提示"
+#~ msgstr "提示"
+
+#~ msgid ""
+#~ "众所周知, 大陆禁用了谷歌相册服务, 国内网站选1, 面向国外访客的网站请选择3或"
+#~ "4。"
+#~ msgstr ""
+#~ "眾所皆知，大陸禁用了谷歌相簿服務，大陸網站選 1，面向國外（非大陸）訪客的網"
+#~ "站請選擇 3 或 4。"
+
+#~ msgid "选项1:暂不处理, 等待服务恢复的那一天"
+#~ msgstr "選項 1：暫不處理，等待服務恢復的那一天"
+
+#~ msgid "选项2:我承诺我已经仔细看过"
+#~ msgstr "選項 2：我承諾我已經仔細看過"
+
+#~ msgid "这篇指南。"
+#~ msgstr "這篇指南。"
+
+#~ msgid "我要把picasa图片本地化(不懂不要选！)"
+#~ msgstr "我要把 Picasa 圖片本地化（不懂不要選！）"
+
+#~ msgid "选项3:"
+#~ msgstr "選項 3： "
+
+#~ msgid "选项4:"
+#~ msgstr "選項 4："
+
+#~ msgid "自动启用存档页面缩略图?"
+#~ msgstr "自動啟用存檔頁面縮略圖?"
+
+#~ msgid "设置缩略图 Thumbnails Anywhere"
+#~ msgstr "設置縮略圖  Thumbnails Anywhere"
+
+#~ msgid "最热门缩略图"
+#~ msgstr "Thumbnails for Most Viewed Posts"

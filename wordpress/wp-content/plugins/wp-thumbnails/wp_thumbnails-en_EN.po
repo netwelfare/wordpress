@@ -1,0 +1,997 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: wp_thumbnails\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-09-14 01:35+0800\n"
+"PO-Revision-Date: 2010-09-14 02:16+0800\n"
+"Last-Translator: niaolei.org.cn <9000birds@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: ta_options.php:818
+msgid "设置缩略图 WP-Thumbnails"
+msgstr "WP-Thumbnails: Options"
+
+#: ta_options.php:823
+msgid "插件名称"
+msgstr "Plugin Name"
+
+#: ta_options.php:824
+msgid "插件作者"
+msgstr "Plugin Author"
+
+#: ta_options.php:824
+msgid "布谷鸟"
+msgstr "Cuckoo"
+
+#: ta_options.php:824
+msgid "鸟类网|分享鸟趣"
+msgstr "I have a blog about Birds."
+
+#: ta_options.php:825
+#: ta_options.php:827
+msgid "插件主页"
+msgstr "Plugin Homepage"
+
+#: ta_options.php:826
+msgid "插件提示"
+msgstr "Notice"
+
+#: ta_options.php:826
+msgid "插件原理是每打开一篇文章生成相应的缩略图, 所以安装插件后请回首页点开几篇文章, 插件就会自动生成缩略图。遇到问题请先看"
+msgstr "the plugin will automatically create thumbnails when the corresponding post is visited, so please go back to homepage and click some posts after installation.  you may get help from the "
+
+#: ta_options.php:826
+msgid "《插件常见问题》"
+msgstr "FAQ"
+
+#: ta_options.php:827
+msgid "安装遇到困难、安装成功、发现错误、问题咨询、特别需求和功能建议请到"
+msgstr "Problems about plugin installation, bug report, suggestions and special needs, please visit the "
+
+#: ta_options.php:827
+msgid "留言。"
+msgstr "to leave a comment."
+
+#: ta_options.php:828
+msgid "插件捐赠"
+msgstr "Donation"
+
+#: ta_options.php:828
+msgid "如果你觉得插件不错，愿意支持插件的继续发展，请到WP-Thumbnails的淘宝网店购买一份支持，1元起，聊表心意即可，在此深表感谢。"
+msgstr "If wp-thumbnails works and you are satisfied with the results, isn't it worth at least one Chinese yuan? Donations help me to continue support and development of this free software!"
+
+#: ta_options.php:832
+msgid "排除和指定"
+msgstr "Source of thumbnails"
+
+#: ta_options.php:835
+#: ta_options.php:840
+msgid "缩略图来源"
+msgstr "from"
+
+#: ta_options.php:836
+msgid "来自每篇文章的第一张图片"
+msgstr "the first picture from each post"
+
+#: ta_options.php:836
+msgid "来自任意图片"
+msgstr "all pictures"
+
+#: ta_options.php:836
+msgid "每篇文章至多提取"
+msgstr "for each post, create at most "
+
+#: ta_options.php:836
+#: ta_options.php:1063
+#: ta_options.php:1099
+#: ta_options.php:1131
+#: ta_options.php:1198
+#: ta_options.php:1264
+#: ta_options.php:1335
+#: ta_options.php:1403
+#: ta_options.php:1470
+msgid "张"
+msgstr "pictures"
+
+#: ta_options.php:841
+msgid "只显示文章缩略图"
+msgstr "posts"
+
+#: ta_options.php:841
+msgid "显示文章缩略图和页面缩略图"
+msgstr "both posts and pages"
+
+#: ta_options.php:845
+msgid "排除标签"
+msgstr "tags"
+
+#: ta_options.php:846
+msgid "不显示该标签所在文章的缩略图, 多个标签以英文逗号, 隔开"
+msgstr "posts with these tags will be ignored, separate tags with commas."
+
+#: ta_options.php:850
+msgid "指定分类"
+msgstr "categories"
+
+#: ta_options.php:851
+msgid "仅显示选中分类"
+msgstr "only create thumbnails for the selected categories"
+
+#: ta_options.php:851
+msgid "显示全部分类"
+msgstr "create thumbnails for all categories"
+
+#: ta_options.php:876
+msgid "设置外链图片"
+msgstr "External Images"
+
+#: ta_options.php:877
+msgid "更改外链图片设置后, 需要点击本页底部“彻底清理插件”才能生效。"
+msgstr "you may need to click the \"Click to Clean Custom Fields\" in the bottom of this page after changing the external images options, "
+
+#: ta_options.php:879
+msgid "如何处理外链图片"
+msgstr "External images"
+
+#: ta_options.php:880
+msgid "自动下载外链图片到本地, 自动生成缩略图。(Yupoo等相册可以直接调用外链缩略图)"
+msgstr "(some web albums like Flickr support external images)<br>Auto download the external images to your blog. <br> "
+
+#: ta_options.php:880
+msgid "不制作缩略图, 将原图片缩小显示, 节省空间和流量, 但图片有可能变形。 "
+msgstr " Do not create real thumbnails, only show the resized original image, it may cause wrong ratio.<br>(Some hosts don`t support download for external images) <br> "
+
+#: ta_options.php:880
+msgid "(有些博客受主机环境所限制, 无法下载远程图片) 忽略一切外链图片, 完全不显示。"
+msgstr "Ignore all the external images, do not show them at all.<br>(Some host don`t support download for external images) <br> "
+
+#: ta_options.php:884
+msgid "Picasa图片"
+msgstr "Pictures from Picasa"
+
+#: ta_options.php:885
+#: ta_options.php:890
+#: ta_options.php:895
+msgid "使用外链缩略图"
+msgstr "Use external images as thumbnails directly"
+
+#: ta_options.php:885
+#: ta_options.php:890
+#: ta_options.php:895
+msgid "制作本地缩略图"
+msgstr "create local(real) thumbnails"
+
+#: ta_options.php:889
+msgid "Flickr图片"
+msgstr "Pictures from Flickr"
+
+#: ta_options.php:894
+msgid "Yupoo图片"
+msgstr "Pictures from Yupoo"
+
+#: ta_options.php:900
+msgid "设置视频缩略图"
+msgstr "Thumbnails for videos"
+
+#: ta_options.php:902
+#: ta_options.php:1052
+#: ta_options.php:1120
+#: ta_options.php:1187
+#: ta_options.php:1253
+#: ta_options.php:1324
+#: ta_options.php:1392
+#: ta_options.php:1459
+msgid "功能说明"
+msgstr "Description"
+
+#: ta_options.php:903
+msgid "提取视频缩略图，支持优酷、酷6、土豆三大视频网站。请注意设置合适的图片显示大小："
+msgstr "display thumbnails from videos, but it only supports three most popular Chinese video sites(youku,ku6,tudou). <br /> please configure the proper sizes for the video thumbnails: "
+
+#: ta_options.php:903
+msgid "优酷视频缩略图大小为128像素*96像素，酷6缩略图大小为132像素*99像素，土豆缩略图大小为120像素*90像素。"
+msgstr "thumbnails from youku are 128px*96px;<br /> thumbnails from ku6 are 132px*99px;<br /> thumbnails from tudou are 120px*90px."
+
+#: ta_options.php:907
+#: ta_options.php:911
+#: ta_options.php:915
+#: ta_options.php:1131
+#: ta_options.php:1151
+#: ta_options.php:1218
+#: ta_options.php:1264
+#: ta_options.php:1284
+#: ta_options.php:1335
+#: ta_options.php:1355
+#: ta_options.php:1403
+#: ta_options.php:1423
+#: ta_options.php:1470
+#: ta_options.php:1490
+msgid "显示"
+msgstr "display"
+
+#: ta_options.php:907
+msgid "与页面缩略图一起显示"
+msgstr "along with page thumbnails"
+
+#: ta_options.php:907
+#: ta_options.php:911
+#: ta_options.php:1136
+#: ta_options.php:1203
+#: ta_options.php:1269
+#: ta_options.php:1289
+#: ta_options.php:1340
+#: ta_options.php:1408
+#: ta_options.php:1475
+msgid "不显示"
+msgstr "don't display "
+
+#: ta_options.php:911
+msgid "与文章缩略图一起显示"
+msgstr "along with post thumbnails"
+
+#: ta_options.php:915
+msgid "显示缩略图"
+msgstr "thumbnails"
+
+#: ta_options.php:915
+msgid "显示缩小的视频"
+msgstr "shrinked videos"
+
+#: ta_options.php:919
+#: ta_options.php:1021
+#: ta_options.php:1077
+#: ta_options.php:1161
+#: ta_options.php:1227
+#: ta_options.php:1298
+#: ta_options.php:1365
+#: ta_options.php:1433
+#: ta_options.php:1499
+msgid "链接目标"
+msgstr "Click for"
+
+#: ta_options.php:920
+#: ta_options.php:1022
+#: ta_options.php:1078
+#: ta_options.php:1162
+#: ta_options.php:1228
+#: ta_options.php:1299
+#: ta_options.php:1366
+#: ta_options.php:1434
+#: ta_options.php:1500
+msgid "点击打开文章"
+msgstr "the post"
+
+#: ta_options.php:920
+msgid "点击打开视频"
+msgstr "the video"
+
+#: ta_options.php:926
+msgid "自动启用"
+msgstr "Automatic Activation"
+
+#: ta_options.php:931
+msgid "自动启用首页页面缩略图"
+msgstr "Automatically display thumbnails for homepage ? "
+
+#: ta_options.php:932
+#: ta_options.php:937
+#: ta_options.php:942
+#: ta_options.php:947
+msgid "单张"
+msgstr "first picture"
+
+#: ta_options.php:932
+#: ta_options.php:937
+#: ta_options.php:942
+#: ta_options.php:947
+msgid "全排"
+msgstr "all"
+
+#: ta_options.php:932
+#: ta_options.php:937
+#: ta_options.php:942
+#: ta_options.php:947
+msgid "智能"
+msgstr "feel lucky"
+
+#: ta_options.php:936
+msgid "自动启用分类页面缩略图"
+msgstr "Automatically display thumbnails category pages ? "
+
+#: ta_options.php:941
+msgid "自动启用标签页面缩略图"
+msgstr "Automatically display thumbnails tag pages ? "
+
+#: ta_options.php:946
+msgid "自动启用搜索页面缩略图"
+msgstr "Automatically display thumbnails search pages ? "
+
+#: ta_options.php:951
+msgid "以上内容截断摘要"
+msgstr "Automatically show excerpt view on each posts on above pages"
+
+#: ta_options.php:953
+msgid "摘要长度"
+msgstr "length"
+
+#: ta_options.php:953
+msgid "汉字"
+msgstr "characters"
+
+#: ta_options.php:955
+msgid "摘要结尾链接文字"
+msgstr "ended with"
+
+#: ta_options.php:957
+#: ta_options.php:965
+msgid "(清空则不显示)"
+msgstr "(ended with nothing if you leave it blank)"
+
+#: ta_options.php:962
+#: ta_options.php:969
+#: ta_options.php:976
+msgid "自动在文章后面插入"
+msgstr "at the end of each post, automatically add  "
+
+#: ta_options.php:962
+msgid "随机文章缩略图"
+msgstr "Thumbnails for Random Posts"
+
+#: ta_options.php:964
+#: ta_options.php:971
+#: ta_options.php:978
+msgid "显示标题为"
+msgstr "with title"
+
+#: ta_options.php:969
+msgid "相关文章缩略图"
+msgstr "Thumbnails for Related Posts"
+
+#: ta_options.php:976
+msgid "该文章自身全部缩略图"
+msgstr "all thumbnails from the post"
+
+#: ta_options.php:984
+msgid "自动将文章中的远程图片替换为本地图片, 本操作消耗资源比较大，慎用。"
+msgstr "Automatically download remote images, and replace them with local images. if you activate this option, please do not click the downmost button of this page that will remove all downloaded images."
+
+#: ta_options.php:987
+msgid "图片本地化排除如下域名，如排除你使用的外链图床。<br />请注意：如果你的网站是example.com, 那么子域名图床如img.example.com也算作外链图床，需要排除。<br />多个域名用英文分号 ; 隔开"
+msgstr "if you don't want to download and replace images from some domains, please fill in the blank below, separate domains with commas."
+
+#: ta_options.php:993
+#: ta_options.php:1036
+#: ta_options.php:1087
+#: ta_options.php:1109
+#: ta_options.php:1171
+#: ta_options.php:1237
+#: ta_options.php:1308
+#: ta_options.php:1380
+#: ta_options.php:1448
+#: ta_options.php:1514
+msgid "点击更新设置 &raquo;"
+msgstr "Update  &raquo;"
+
+#: ta_options.php:998
+#: ta_options.php:1099
+msgid "首页缩略图"
+msgstr "Thumbnails for Homepage"
+
+#: ta_options.php:1001
+#: ta_options.php:1057
+#: ta_options.php:1125
+#: ta_options.php:1192
+#: ta_options.php:1258
+#: ta_options.php:1329
+#: ta_options.php:1397
+#: ta_options.php:1464
+msgid "尺寸"
+msgstr "Size"
+
+#: ta_options.php:1002
+#: ta_options.php:1058
+#: ta_options.php:1126
+#: ta_options.php:1193
+#: ta_options.php:1259
+#: ta_options.php:1330
+#: ta_options.php:1398
+#: ta_options.php:1465
+msgid "宽度"
+msgstr "width"
+
+#: ta_options.php:1002
+#: ta_options.php:1058
+#: ta_options.php:1063
+#: ta_options.php:1126
+#: ta_options.php:1131
+#: ta_options.php:1141
+#: ta_options.php:1193
+#: ta_options.php:1198
+#: ta_options.php:1208
+#: ta_options.php:1259
+#: ta_options.php:1264
+#: ta_options.php:1274
+#: ta_options.php:1330
+#: ta_options.php:1335
+#: ta_options.php:1345
+#: ta_options.php:1398
+#: ta_options.php:1403
+#: ta_options.php:1413
+#: ta_options.php:1465
+#: ta_options.php:1470
+#: ta_options.php:1480
+msgid "像素"
+msgstr "pixels"
+
+#: ta_options.php:1002
+#: ta_options.php:1058
+#: ta_options.php:1126
+#: ta_options.php:1193
+#: ta_options.php:1259
+#: ta_options.php:1330
+#: ta_options.php:1398
+#: ta_options.php:1465
+msgid "高度"
+msgstr "height"
+
+#: ta_options.php:1006
+msgid "裁剪"
+msgstr "Crop"
+
+#: ta_options.php:1007
+msgid "智能保持原图比例"
+msgstr "keep original ratio"
+
+#: ta_options.php:1007
+msgid "精确裁剪成上述宽度和高度"
+msgstr "Accurate crop to the length and height above"
+
+#: ta_options.php:1011
+#: ta_options.php:1067
+msgid "位置"
+msgstr "Position"
+
+#: ta_options.php:1012
+msgid "靠左显示"
+msgstr "left"
+
+#: ta_options.php:1012
+msgid "靠右显示"
+msgstr "right"
+
+#: ta_options.php:1012
+msgid "左右随机出现"
+msgstr "random"
+
+#: ta_options.php:1012
+msgid "居中显示(居中的时候文字无法环绕, 图片尺寸设大一点会比较美观)"
+msgstr "center (the words can not square image, so setting image in a large size should be more beautiful) "
+
+#: ta_options.php:1016
+#: ta_options.php:1072
+#: ta_options.php:1156
+#: ta_options.php:1222
+#: ta_options.php:1293
+#: ta_options.php:1360
+#: ta_options.php:1428
+#: ta_options.php:1494
+msgid "窗口"
+msgstr "Window"
+
+#: ta_options.php:1017
+#: ta_options.php:1073
+#: ta_options.php:1157
+#: ta_options.php:1223
+#: ta_options.php:1294
+#: ta_options.php:1361
+#: ta_options.php:1429
+#: ta_options.php:1495
+msgid "在新窗口中打开"
+msgstr "Open post links in new windows"
+
+#: ta_options.php:1017
+#: ta_options.php:1073
+#: ta_options.php:1157
+#: ta_options.php:1223
+#: ta_options.php:1294
+#: ta_options.php:1361
+#: ta_options.php:1429
+#: ta_options.php:1495
+msgid "在当前窗口打开"
+msgstr "Open post links in current windows"
+
+#: ta_options.php:1022
+#: ta_options.php:1078
+#: ta_options.php:1162
+#: ta_options.php:1228
+#: ta_options.php:1299
+#: ta_options.php:1366
+#: ta_options.php:1434
+#: ta_options.php:1500
+msgid "点击打开原始大图"
+msgstr "the original picture"
+
+#: ta_options.php:1026
+msgid "默认图片"
+msgstr "Default Image"
+
+#: ta_options.php:1027
+msgid "文章中不存在图片时, 如果要显示默认缩略图片, 请填写图片地址。"
+msgstr "You can provide a default image if the post don not have image. just input its address. "
+
+#: ta_options.php:1027
+msgid "例如"
+msgstr "for example: "
+
+#: ta_options.php:1027
+msgid "最好是本地图片。"
+msgstr "local image is best."
+
+#: ta_options.php:1031
+#: ta_options.php:1082
+#: ta_options.php:1104
+#: ta_options.php:1166
+#: ta_options.php:1232
+#: ta_options.php:1303
+#: ta_options.php:1375
+#: ta_options.php:1443
+#: ta_options.php:1509
+msgid "调用代码"
+msgstr "Code"
+
+#: ta_options.php:1032
+msgid "代码放置于首页模板, 置于the_content或the_excerpt之前。"
+msgstr "put the code before or after \"the_content/the_excerpt\" in the index.php of your theme."
+
+#: ta_options.php:1040
+#: ta_options.php:1175
+#: ta_options.php:1241
+#: ta_options.php:1312
+msgid "预览"
+msgstr "Preview"
+
+#: ta_options.php:1049
+msgid "全排列缩略图"
+msgstr "Thumbnails for Single Post"
+
+#: ta_options.php:1053
+msgid "将该文章内所有的图片以缩略图形式排列出来, 也即一次显示多张图片的“首页缩略图”。"
+msgstr "Show all the thumbnails from one post in a row, namely multiple thumbnails for page.  "
+
+#: ta_options.php:1062
+#: ta_options.php:1130
+#: ta_options.php:1197
+#: ta_options.php:1263
+#: ta_options.php:1334
+#: ta_options.php:1402
+#: ta_options.php:1469
+msgid "数量"
+msgstr "Number"
+
+#: ta_options.php:1063
+msgid "显示至多"
+msgstr "no more than"
+
+#: ta_options.php:1063
+msgid "每行不超过"
+msgstr "In very row no more than"
+
+#: ta_options.php:1063
+#: ta_options.php:1131
+#: ta_options.php:1198
+#: ta_options.php:1264
+#: ta_options.php:1335
+#: ta_options.php:1403
+#: ta_options.php:1470
+msgid "图片间距"
+msgstr "image space"
+
+#: ta_options.php:1068
+msgid "普通显示, 不环绕"
+msgstr "normal display, do not square "
+
+#: ta_options.php:1068
+msgid "靠左显示, 文字环绕"
+msgstr "align left, square "
+
+#: ta_options.php:1068
+msgid "靠右显示, 文字环绕"
+msgstr "align right, square "
+
+#: ta_options.php:1083
+msgid "代码放置于首页模板, 置于the_content或the_excerpt之后, 以实现首页排列出每篇文章多张缩略图的效果。当然, 也可以放置在单篇文章页single.php的任意位置。"
+msgstr "put the code behind the \"the_content\" or \"the_excerpt\" for display multiple thumbnails in every post of homepage, <br> of course, you can also put them in anywhere of the single post, by editing \"single.php\". "
+
+#: ta_options.php:1095
+msgid "智能方式调用首页缩略图: (结合上面两种方式)"
+msgstr "Smartly Display Thumbnails in the Homepage (combine two ways above)"
+
+#: ta_options.php:1098
+msgid "智能调用"
+msgstr "Smartly display"
+
+#: ta_options.php:1099
+msgid "如果文章内图片少于"
+msgstr "If images in the post is less than"
+
+#: ta_options.php:1099
+msgid "那么调用"
+msgstr "then display "
+
+#: ta_options.php:1099
+msgid "否则排列显示该文章内所有缩略图。"
+msgstr "<br>otherwise display Thumbnails for Single Post."
+
+#: ta_options.php:1099
+msgid "仍然在上面两种方式处进行设置。"
+msgstr "(please set corresponding configurations above)"
+
+#: ta_options.php:1105
+msgid "代码放置于首页模板, 置于the_content或the_excerpt之后。"
+msgstr "put the code in the index templet,behind(or before) \"the_content\"(or\"the_excerpt\") "
+
+#: ta_options.php:1117
+msgid "随机缩略图"
+msgstr "Thumbnails for Random Posts"
+
+#: ta_options.php:1121
+msgid "显示随机文章的缩略图。"
+msgstr "Thumbnails for Random Posts"
+
+#: ta_options.php:1135
+#: ta_options.php:1202
+#: ta_options.php:1268
+#: ta_options.php:1339
+#: ta_options.php:1407
+#: ta_options.php:1474
+msgid "标题"
+msgstr "Title"
+
+#: ta_options.php:1136
+#: ta_options.php:1203
+#: ta_options.php:1269
+#: ta_options.php:1340
+#: ta_options.php:1408
+#: ta_options.php:1475
+msgid "显示文章标题"
+msgstr "Display the title"
+
+#: ta_options.php:1140
+#: ta_options.php:1207
+#: ta_options.php:1273
+#: ta_options.php:1344
+#: ta_options.php:1412
+#: ta_options.php:1479
+msgid "标题位置"
+msgstr "Position"
+
+#: ta_options.php:1141
+#: ta_options.php:1208
+#: ta_options.php:1274
+#: ta_options.php:1345
+#: ta_options.php:1413
+#: ta_options.php:1480
+msgid "标题显示在图片的"
+msgstr "Display the title at"
+
+#: ta_options.php:1141
+#: ta_options.php:1208
+#: ta_options.php:1274
+#: ta_options.php:1345
+#: ta_options.php:1413
+#: ta_options.php:1480
+msgid "上方"
+msgstr "Up"
+
+#: ta_options.php:1141
+#: ta_options.php:1208
+#: ta_options.php:1274
+#: ta_options.php:1345
+#: ta_options.php:1413
+#: ta_options.php:1480
+msgid "下方"
+msgstr "Bottom"
+
+#: ta_options.php:1141
+#: ta_options.php:1208
+#: ta_options.php:1274
+#: ta_options.php:1345
+#: ta_options.php:1413
+#: ta_options.php:1480
+msgid "左边"
+msgstr "left"
+
+#: ta_options.php:1141
+#: ta_options.php:1208
+#: ta_options.php:1274
+#: ta_options.php:1345
+#: ta_options.php:1413
+#: ta_options.php:1480
+msgid "右边"
+msgstr "right"
+
+#: ta_options.php:1141
+#: ta_options.php:1208
+#: ta_options.php:1274
+#: ta_options.php:1345
+#: ta_options.php:1413
+#: ta_options.php:1480
+msgid "标题在左右时,必须指定标题宽度为"
+msgstr "title width must be configured when displaying title on the left or right"
+
+#: ta_options.php:1145
+#: ta_options.php:1212
+#: ta_options.php:1278
+#: ta_options.php:1349
+#: ta_options.php:1417
+#: ta_options.php:1484
+msgid "标题截断"
+msgstr "Title"
+
+#: ta_options.php:1146
+#: ta_options.php:1213
+#: ta_options.php:1279
+#: ta_options.php:1350
+#: ta_options.php:1418
+#: ta_options.php:1485
+msgid "完整显示(对多行多列的显示效果有影响) "
+msgstr "<br>Complete display(influence the multi line display)"
+
+#: ta_options.php:1146
+#: ta_options.php:1213
+#: ta_options.php:1279
+#: ta_options.php:1350
+#: ta_options.php:1418
+#: ta_options.php:1485
+msgid "截断标题使之显示在一行内"
+msgstr "cut up the title make it display in one line"
+
+#: ta_options.php:1150
+#: ta_options.php:1217
+#: ta_options.php:1283
+#: ta_options.php:1354
+#: ta_options.php:1422
+#: ta_options.php:1489
+msgid "摘要"
+msgstr "excerpt"
+
+#: ta_options.php:1151
+#: ta_options.php:1218
+#: ta_options.php:1284
+#: ta_options.php:1355
+#: ta_options.php:1423
+#: ta_options.php:1490
+msgid "个汉字长度的文章摘要，清空则不显示摘要。注意: 仅当标题显示在图片左右方向时才显示摘要。"
+msgstr "characters. <br/>if you don't want to display any post content, please leave it blank. Notice: the excerpt only works when displaying title in the left or right."
+
+#: ta_options.php:1167
+#: ta_options.php:1233
+#: ta_options.php:1304
+#: ta_options.php:1510
+msgid "代码放置于任意位置"
+msgstr "put the code in any place."
+
+#: ta_options.php:1184
+msgid "最新缩略图"
+msgstr "Thumbnails for Recent Posts"
+
+#: ta_options.php:1188
+msgid "显示最新文章的缩略图。"
+msgstr "Thumbnails for Recent Posts"
+
+#: ta_options.php:1250
+msgid "最热门文章缩略图: (必须先启用访问统计插件WP-PostViews)"
+msgstr "Thumbnails for the Most Popular Posts (WP-Postviews must be activated) "
+
+#: ta_options.php:1254
+msgid "根据访客点击数, 显示最热门文章的缩略图。"
+msgstr "display the most popular post thumbnails based on the WP-PostViews."
+
+#: ta_options.php:1288
+msgid "统计显示"
+msgstr "Views"
+
+#: ta_options.php:1289
+msgid "文章统计数"
+msgstr "views"
+
+#: ta_options.php:1289
+msgid "显示文章统计数 , 统计结果显示为"
+msgstr "Display the views as "
+
+#: ta_options.php:1321
+msgid "相关缩略图"
+msgstr "Thumbnails for Related Posts"
+
+#: ta_options.php:1325
+msgid "根据标签的相关性, 显示相关文章的缩略图。"
+msgstr "display the related posts based on tags"
+
+#: ta_options.php:1335
+msgid "当相关缩略图数量不足时"
+msgstr "while the related thumbnails is not enough "
+
+#: ta_options.php:1335
+msgid "用随机缩略图补全"
+msgstr "fill the random thumbnails "
+
+#: ta_options.php:1335
+msgid "不补全"
+msgstr "no fill"
+
+#: ta_options.php:1370
+#: ta_options.php:1438
+#: ta_options.php:1504
+msgid "顺序"
+msgstr "order"
+
+#: ta_options.php:1371
+#: ta_options.php:1439
+#: ta_options.php:1505
+msgid "随机"
+msgstr "by random"
+
+#: ta_options.php:1371
+#: ta_options.php:1439
+#: ta_options.php:1505
+msgid "按时间"
+msgstr "by time"
+
+#: ta_options.php:1376
+msgid "代码放置于文章页面模板任意位置"
+msgstr "put the code in anywhere of the single.php. "
+
+#: ta_options.php:1389
+msgid "分类缩略图"
+msgstr "Thumbnails for Category"
+
+#: ta_options.php:1393
+msgid "显示当前分类下的文章缩略图, 也可以显示指定分类id下的缩略图。"
+msgstr "display thumbnails for the current category, as well as thumbnails for sepecifed categories."
+
+#: ta_options.php:1444
+msgid "代码放置于分类页面模板任意位置"
+msgstr "put the code in any place in category page. (category.php or archives.php)"
+
+#: ta_options.php:1456
+msgid "标签缩略图"
+msgstr "Thumbnails for Tag"
+
+#: ta_options.php:1460
+msgid "显示当前标签下的文章缩略图, 也可以显示多个指定标签id下的缩略图。"
+msgstr "display thumbnails for the current tag, as well as thumbnails for sepecifed tags."
+
+#: ta_options.php:1510
+msgid "参数为tag的id，可以显示多个标签的缩略图"
+msgstr "parameter: tag ids"
+
+#: ta_options.php:1527
+msgid "清理和重置"
+msgstr "Clean and Reset"
+
+#: ta_options.php:1531
+msgid "点击还原后台所有选项到默认设置 &raquo;  安全！"
+msgstr "reset all the configurations &raquo;  It's safe!"
+
+#: ta_options.php:1532
+msgid "点击清理不再用到的缩略图 &raquo;  安全！"
+msgstr "Click to Recreate all the Thumbnails &raquo;  Cautious! "
+
+#: ta_options.php:1538
+msgid "如果你的空间有限, 可以一键清理下载到本地的远程图片, 即删除/wp-content/uploads/ta-thumbnails-cache/TAdownload文件夹下所有图片: "
+msgstr "If you have limited host, you can click to remove downloaded images. even remove images in /wp-content/uploads/ta-thumbnails-cache/TAdownload"
+
+#: ta_options.php:1539
+msgid "这样做的前提是:后台的缩略图尺寸都不再改动, 即不需要生成和调用新尺寸的图片。只要不再改动尺寸, 已有的缩略图仍然可以正常显示: "
+msgstr "Make sure you will not change the size of thumbnails, which means do not need to create or use thumbnails in new size. <br>All the thumbnails which you already have will be normal, if you do not change size. "
+
+#: ta_options.php:1540
+msgid "点击清理下载的远程文件 &raquo;  慎用！"
+msgstr "Click to Clean all downloaded Images &raquo; Cautious!"
+
+#: ta_options.php:1546
+msgid "一键清理全部自定义域ta-thumbnail, 使插件重新检测缩略图: "
+msgstr "delete the custom filed ta-thumbnail for each post, the plugin will detect all thumbnails from the scratch."
+
+#: ta_options.php:1547
+msgid "点击清理自定义域 &raquo;  慎用！"
+msgstr "Click to Clean Custom Fileds &raquo; Cautious!"
+
+#: ta_options.php:1553
+msgid "一键清理数据库并删除所有下载的和生成的缩略图。之后逐一点开文章, 插件会重新生成缩略图: "
+msgstr "When old version have problems, click to clean the database and delete all the downloaded thumbnails. then open the every single post, the plugin will recreate new thumbnails."
+
+#: ta_options.php:1554
+msgid "点击彻底清理 &raquo;  慎用！"
+msgstr "Click to Clean Thoroughly &raquo; Cautious!"
+
+#: ta_widget.php:40
+#: ta_widget.php:85
+#: ta_widget.php:129
+#: ta_widget.php:174
+msgid "Title:"
+msgstr ""
+
+#: wp_thumbnails.php:68
+#: wp_thumbnails.php:77
+#: wp_thumbnails.php:86
+msgid "提示：很抱歉，无法创建缩略图目录，请手动创建目录 "
+msgstr "Tips: sorry, can not create the directory of thumbnails, please create it manually. "
+
+#: wp_thumbnails.php:68
+#: wp_thumbnails.php:77
+#: wp_thumbnails.php:86
+msgid "权限设置为755."
+msgstr "Set permissions to 755. "
+
+#~ msgid "提示"
+#~ msgstr "Hints"
+
+#~ msgid ""
+#~ "众所周知, 大陆禁用了谷歌相册服务, 国内网站选1, 面向国外访客的网站请选择3或"
+#~ "4。"
+#~ msgstr ""
+#~ "As we know, Google Picasa Web Albums are banned in Mainland China, inland "
+#~ "blogs check 1, blogs to foreign visitors please check 3 or 4 "
+
+#~ msgid "选项1:暂不处理, 等待服务恢复的那一天"
+#~ msgstr ""
+#~ "option 1: ignore all picasa images, wait for the day the service can work "
+
+#~ msgid "选项2:我承诺我已经仔细看过"
+#~ msgstr "option 2: I promise I have read "
+
+#~ msgid "这篇指南。"
+#~ msgstr "this guide"
+
+#~ msgid "我要把picasa图片本地化(不懂不要选！)"
+#~ msgstr ""
+#~ " carefully. I want to localize the picasa images (do not check it if you "
+#~ "do not understand)"
+
+#~ msgid "选项3:"
+#~ msgstr "option 3: "
+
+#~ msgid "选项4:"
+#~ msgstr "option 4: "
+
+#~ msgid "自动启用存档页面缩略图?"
+#~ msgstr "Auto Display Thumbnails for Archives ?"
+
+#~ msgid ""
+#~ "三种清理方式一个比一个彻底, 如果启用了缓存插件, 清理完后务必再清空一下缓"
+#~ "存。"
+#~ msgstr ""
+#~ "These 3 ways to clean, each one is more thoroughly than other before,<br> "
+#~ "if you has installed any cache plugin, must also cean the caches after "
+#~ "cleaning the thumbnails. "
+
+#~ msgid ""
+#~ "如果你把尺寸改来改去, 导致生成了很多规格的缩略图。但你现在不需要这些缩略图"
+#~ "了, 那么可以试试全部删掉。"
+#~ msgstr ""
+#~ "If you change the size many times and create many thumbnail. but you do "
+#~ "not need them, then you can try to remove them all."
+
+#~ msgid "然后插件会根据你现在设置的尺寸自动生成缩略图。"
+#~ msgstr "And then this plugin will create thumbnails automatically."
+
+#~ msgid ""
+#~ "如果你使用过低于thumbnails anywhere 2.2.3的版本, 点此清理旧版本多余的缩略"
+#~ "图。"
+#~ msgstr ""
+#~ "If you have used this plugin below version 2.2.3, click here to remove "
+#~ "old thumbnails in old version. "
+
+#~ msgid "设置缩略图 Thumbnails Anywhere"
+#~ msgstr "Thumbnails Anywhere Options"
+
+#~ msgid "最热门缩略图"
+#~ msgstr "Thumbnails for Most Viewed Posts"
