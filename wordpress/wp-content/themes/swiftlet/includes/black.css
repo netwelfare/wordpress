@@ -9,7 +9,7 @@ body {background:#6e6f6f;margin:0 auto;font:12px/22px 'Microsoft Yahei','\5b8b\4
 
 /*---search---*/
 /* 搜索	 */	
-#s {width:100px;background:url(../images/search_black.gif);margin-top:4px;padding: 4px 5px;height:17px;border:none;
+#s {width:100px;background:url(../images/search_black.gif);margin-top:4px;padding: 4px 5px;height:25px;border:none;
 	font: normal 100% "Tahoma", Arial, Helvetica, sans-serif;color:#fff;float:left;display:inline;}
 /* 侧边栏	 */		
 ul.cooltab_nav li a.active{background:#505151;color:#fff;}
