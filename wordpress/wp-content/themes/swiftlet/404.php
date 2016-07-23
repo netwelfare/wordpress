@@ -20,7 +20,7 @@
 							<p>您还可以使用本站搜索功能找到你要的文章哦</p>
 			</div><!--正文-->          
 		</div><!--内容-->
-	</div>
+	<!--</div>-->
 		<div class="clear"></div>
 
 <?php get_sidebar(); ?>
