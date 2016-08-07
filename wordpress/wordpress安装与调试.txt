@@ -27,4 +27,3 @@ xdebug.profiler_output_dir="C:\xampp\php\logs"
 第七步：配置php的执行引擎：name，path，ini文件，debugger调试器
 第八步：配置调试工具。包括配置PHPserver，执行引擎。
 第九步：debug config：要注意的是url，前面是php server，后面部分必须要填写虚拟目录部分
-

@@ -43,7 +43,7 @@
 </div>
 	<script type="text/javascript" src="http://swiftlet.net/wp-content/themes/swiftlet/ntes/js/easyCore.js"></script>
 	<script type="text/javascript" src="http://swiftlet.net/wp-content/themes/swiftlet/ntes/js/dialog.js"></script>
-	
+	<!--
 	<script type="text/javascript">
 	(function(window, $, undefined){
 		$("body").delegate("#closePop","click",function(){$.dialog();});
@@ -62,6 +62,6 @@
 		$.cookie("hasVisitedx","1",{expires:2, path:"/"});
 	})(window, jQuery);
 	</script>
-	
+	-->
 </body>
 </html>
