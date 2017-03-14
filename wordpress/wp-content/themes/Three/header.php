@@ -51,9 +51,11 @@
 	<div id="menu-box">
 		<div id="top-menu">
 			<div id="top-logo">
+				<!--
 				<a href="<?php bloginfo('home'); ?>/">
 					<img src="<?php bloginfo('template_directory'); ?>/images/logo.png" alt="<?php bloginfo('name'); ?>">
 				</a>
+				-->
 			</div>			
 			<div id="site-nav-wrap">
 				<div id="sidr-close">
