@@ -35,7 +35,8 @@
 					<?php wp_link_pages(array('before' => '', 'after' => '</div>', 'next_or_number' => 'next', 'previouspagelink' => '', 'nextpagelink' => "<span>下一页</span>")); ?>			
 			</div>
 	<div class="clear"></div>
-	<?php get_template_part( 'inc/social' ); ?>
+	<br />
+	<!--<?php get_template_part( 'inc/social' ); ?>-->
 	<div class="xiaoshi">
 		<div class="single_banquan">	
 			<strong>版权声明：</strong>本文著作权归原作者所有，欢迎分享本文，谢谢支持！<br/>
