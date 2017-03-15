@@ -39,8 +39,7 @@
 	<!--<?php get_template_part( 'inc/social' ); ?>-->
 	<div class="xiaoshi">
 		<div class="single_banquan">	
-			<strong>版权声明：</strong>本文著作权归原作者所有，欢迎分享本文，谢谢支持！<br/>
-			<strong>转载请注明：</strong><a href="<?php the_permalink() ?>" rel="bookmark" title="本文固定链接 <?php the_permalink() ?>"><?php the_title(); ?> </a> | <a href="<?php bloginfo('home'); ?>"><?php bloginfo('name');?></a>
+			<strong>版权声明：</strong>本文版权由<a href="<?php bloginfo('home'); ?>"><?php bloginfo('name');?></a>所有，转载请保留链接：<a href="<?php the_permalink() ?>" rel="bookmark" title="本文固定链接 <?php the_permalink() ?>"><?php the_title(); ?> </a>
 		</div>
 	</div>
 		
