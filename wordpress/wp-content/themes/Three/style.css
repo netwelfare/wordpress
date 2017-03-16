@@ -853,7 +853,7 @@ opacity: 0.6;
 	display: none;
 }
 .single-content p {
-	text-indent: 2em;
+	/**text-indent: 2em;*/
 }
 .single-content ul li,
 .single-content ol li {
@@ -1424,7 +1424,7 @@ font-size: 14px;
 	-webkit-appearance: none;
 }
 #commentform textarea {
-background: url(images/commentbox.gif) no-repeat center;
+background: url() no-repeat center;
 }
 #respond #submit {
 	background: #C01E22;
