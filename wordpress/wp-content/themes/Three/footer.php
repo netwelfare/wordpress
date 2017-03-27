@@ -33,7 +33,7 @@
     <?php wp_reset_query(); if ( is_single() || is_page() ) { ?>
         <a class="tools_comments" title="发表评论"></a>
     <?php } else {?>
-        <a href="<?php echo stripslashes(get_option('ygj_lyburl')); ?>#respond" class="tools_comments" title="给我留言" target="_blank" rel="nofollow"></a>
+        <!--<a href="<?php echo stripslashes(get_option('ygj_lyburl')); ?>#respond" class="tools_comments" title="给我留言" target="_blank" rel="nofollow"></a>-->
     <?php } ?>
 </div>
 <?php if (is_single() || is_page() ) { ?>
