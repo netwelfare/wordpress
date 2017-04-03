@@ -26,6 +26,18 @@
 </div>
 <![endif]-->
 <?php wp_head(); ?>
+
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?c7547f31f10e30e04f8f8690cd29825d";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+
+
 </head>
 <body <?php body_class(); ?>>
 <div id="page" class="hfeed site">
