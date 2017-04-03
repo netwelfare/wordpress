@@ -802,6 +802,19 @@ opacity: 0.6;
 .single-content a, .single-content a:visited{
 	color: #C01E22;
 }
+
+.entry-content h1 {
+	background: #a0a0a0 none repeat scroll 0 0;
+    border: 1px solid #e5e5e5;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 20px;
+    height: 35px;
+    line-height: 25px;
+    margin: 5px 0;
+    padding: 1px 8px;
+}
+
 .single-content a:hover {
 	color: #C01E22;
 }
