@@ -176,8 +176,8 @@
 </div>
 	
 	<!--分类ID下-->	
-	<!--
-	<?php $display_categories = explode(',', get_option('swt_cat3') ); $i = 1; foreach ($display_categories as $category) { ?>   
+	 
+	<?php /* $display_categories = explode(',', get_option('swt_cat3') ); $i = 1; foreach ($display_categories as $category) { ?>   
            <div class="con_box fl resouse_artile qd_aritle" id="cat-<?php echo $i; ?>"  >
 		        <?php query_posts("cat=$category")?>
 			 <h2><?php single_cat_title(); ?></h2>
@@ -218,5 +218,6 @@
 		       </ul>
 	  </div> 
 </div>-->
+
 	<?php $i++; ?>
-	<?php } ?>
+	<?php } ?> */
