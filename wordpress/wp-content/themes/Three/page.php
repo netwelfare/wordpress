@@ -28,7 +28,7 @@
 					<?php wp_link_pages(array('before' => '', 'after' => '</div>', 'next_or_number' => 'next', 'previouspagelink' => '', 'nextpagelink' => "<span>下一页</span>")); ?>		
 			</div>
 <div class="clear"></div>
-<?php get_template_part( 'inc/social' ); ?>
+<?php //get_template_part( 'inc/social' ); ?>
 			
 				<div class="clear"></div>
 	</div><!-- .entry-content -->

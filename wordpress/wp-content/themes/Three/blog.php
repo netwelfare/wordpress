@@ -51,7 +51,7 @@
 			<div class="clear"></div>
 		</div><!-- .entry-content -->
 		
-		<span class="archive-tag"><?php the_tags('', ', ', '');?></span>
+		<!--<span class="archive-tag"><?php //the_tags('', ', ', '');?></span>-->
 	</article><!-- #post -->
 
  	<!-- ad -->

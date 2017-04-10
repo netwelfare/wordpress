@@ -22,7 +22,7 @@
 		
 <footer id="colophon" class="site-footer" role="contentinfo">
 	<div class="site-info">			
-			Copyright ©&nbsp; <?php date('Y'); bloginfo('name');?><span class="plxiaoshi"> &nbsp; | &nbsp; Theme by <a title="木秀林" href="http://www.muxiulin.com" target="_blank"><?php echo get_current_theme(); ?></a></span><span class="footer-tag">&nbsp; | &nbsp; Powered by <a href="http://muxiulin.com/" title="木秀林" target="_blank" rel="nofollow">muxiulin.com</a> &nbsp; | &nbsp;  <a href="http://www.miitbeian.gov.cn/" target="_blank" rel="nofollow"><?php echo stripslashes(get_option('ygj_icp')); ?></a></span>
+			Copyright ©&nbsp; <?php date('Y'); bloginfo('name');?><span class="footer-tag">&nbsp; | &nbsp; Powered by <a href="http://muxiulin.com/" title="木秀林" target="_blank" rel="nofollow">muxiulin.com</a> &nbsp; | &nbsp;  <?php echo stripslashes(get_option('ygj_icp')); ?></span>
 		</div>
 </footer>
 

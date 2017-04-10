@@ -1,7 +1,7 @@
 <?php
 function the_crumbs() {		
 		if (is_home()) {
-			echo '<nav class="breadcrumb">欢迎来访，祝幸福快乐每一天！';	
+			echo '<nav class="breadcrumb">欢迎来访木秀林网，网站专注于消息中间件技术的研究和高性能方面的探索！';	
 		}
 		if (!is_home()) {
 			echo '<nav class="breadcrumb">';
