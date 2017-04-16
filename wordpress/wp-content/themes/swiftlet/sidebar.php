@@ -58,7 +58,7 @@ style-addthis"></a><span class="BSHARE_COUNT bshare-share-count" style="float: n
 		<ul class="cooltab_nav sj_nav clearfix">	
 		   		
 			<li><a href="#" class="active" title="new_art">最新文章</a></li>
-			<!--<li><a href="#" title="hot_art">精品系列</a></li>	-->
+			<li><a href="#" title="hot_art">学习方法</a></li>
 		</ul>
         <div id="new_art" class="com_cont">  
             <ul>
@@ -70,10 +70,10 @@ style-addthis"></a><span class="BSHARE_COUNT bshare-share-count" style="float: n
 				<?php endwhile; ?>
 			</ul>      
 		</div>	
-       <!--		
+       	
 		<div id="hot_art" class="com_cont">   
 			<ul>
-			    <?php /* query_posts('posts_per_page=8&caller_get_posts=1&orderby=comment_count'); */  query_posts('cat=64'); ?>
+			    <?php /* query_posts('posts_per_page=8&caller_get_posts=1&orderby=comment_count'); */  query_posts('posts_per_page=10&caller_get_posts=1&cat=73'); ?>
 				<?php while (have_posts()) : the_post(); ?>
 				<li>
 				<a target="_blank" href="<?php the_permalink(); ?>" class="title" title="<?php the_title(); ?>"><?php echo cut_str($post->post_title,34); ?></a>
@@ -81,7 +81,7 @@ style-addthis"></a><span class="BSHARE_COUNT bshare-share-count" style="float: n
 				<?php endwhile; ?>
 			</ul>                    
 		</div>
-      	-->
+      	
 	</div>
 	
 	<!-- 侧边栏(中)广告开始-->  

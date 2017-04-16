@@ -149,7 +149,7 @@ return get_avatar($email, $size);
 function custom_smilies_src($src, $img){return get_bloginfo('template_directory').'/images/smilies/' . $img;}
 add_filter('smilies_src', 'custom_smilies_src', 10, 2);
 //pagenavi
-function par_pagenavi($range = 20){
+function par_pagenavi($range = 50){
 	global $paged, $wp_query;
 	if ( !$max_page ) {$max_page = $wp_query->max_num_pages;}
 	if($max_page > 1){if(!$paged){$paged = 1;}
@@ -468,5 +468,16 @@ add_action('do_feed_rdf', 'digwp_disable_feed', 1);
 add_action('do_feed_rss', 'digwp_disable_feed', 1);
 add_action('do_feed_rss2', 'digwp_disable_feed', 1);
 add_action('do_feed_atom', 'digwp_disable_feed', 1);
+
+
+
+function excludeCat($query) {
+  if ( $query->is_home ) { //首页过滤指定分类，你可以指定其他页面
+    $query->set('cat', '-73'); //过滤分类ID为 3,5,23的分类文章
+  }
+  return $query;
+}
+add_filter('pre_get_posts', 'excludeCat');
+
 
 ?>

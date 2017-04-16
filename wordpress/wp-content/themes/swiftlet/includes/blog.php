@@ -1,3 +1,5 @@
+<!-- 置顶文章 -->
+<?php include(TEMPLATEPATH . '/includes/sticky_post.php'); ?>	
 <?php
 $args = array(
     'posts_per_page' => 8,

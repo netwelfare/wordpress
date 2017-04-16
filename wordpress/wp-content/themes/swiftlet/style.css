@@ -275,7 +275,7 @@ ul.cooltab_nav li a.active{background:#D32469;color:#fff;}
 
 /*--最新文章--*/
 .art_img_box {float:left;margin:0 0 10px 0;padding:15px;position:relative;background:#fff;border: 1px solid #DBDBDB;-moz-border-radius: 5px;-webkit-border-radius: 5px;border-radius: 4px;width:678px;}
-.innerimg_box img{padding:4px;border:1px #dbdbdb solid;background:#fff;width:140px; height:154px;}
+.innerimg_box img{padding:4px;border:1px #dbdbdb solid;background:#fff;width:155px; height:150px;}
 .innerimg_box a:hover img{border:1px #e23a0a solid;-webkit-transition: border-color .5s;-moz-transition: border-color .5s;transition: border-color .5s;-webkit-box-shadow: 0 1px 5px rgba(0,0,0,.3);-moz-box-shadow: 0 1px 5px rgba(0,0,0,.3);box-shadow: 0 1px 5px rgba(0,0,0,.3);}
 .box_content{width:500px;position:relative;}
 .box_content h2 {font-size:18px;line-height:26px;font-weight:bold;padding:5px 0 5px 0;}
