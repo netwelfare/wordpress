@@ -566,7 +566,8 @@ class WP {
 		}
 
 		// We will 404 for paged queries, as no posts were found.
-		if ( ! is_paged() ) {
+		//if ( ! is_paged() )
+			{
 
 			// Don't 404 for authors without posts as long as they matched an author on this site.
 			$author = get_query_var( 'author' );
