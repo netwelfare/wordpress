@@ -473,7 +473,7 @@ add_action('do_feed_atom', 'digwp_disable_feed', 1);
 
 function excludeCat($query) {
   if ( $query->is_home ) { //首页过滤指定分类，你可以指定其他页面
-    $query->set('cat', '-73'); //过滤分类ID为 3,5,23的分类文章
+    $query->set('cat', '-73,-7'); //过滤分类ID为 3,5,23的分类文章
   }
   return $query;
 }
