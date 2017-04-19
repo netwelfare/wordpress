@@ -3,7 +3,7 @@
 <?php
 $args = array(
     'posts_per_page' => 8,
-	'caller_get_posts' => 10,
+	'caller_get_posts' => 1,
 	'post__not_in' =>$do_not_duplicate,
 	'paged' => $paged
 	);
