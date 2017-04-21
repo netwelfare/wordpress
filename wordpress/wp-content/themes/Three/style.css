@@ -150,7 +150,7 @@ a, button, input {
 }
 /** 头部 **/
 #masthead {
-	height: 128px;
+	height: 85px;
 }
 .logo-site {
 	float: left;
@@ -171,7 +171,7 @@ a, button, input {
 	display:none;
 }
 .top-nav {
-	height: 78px;
+	height: 35px;
 	width: 1080px;
 	margin: 0 auto 0;
 }
