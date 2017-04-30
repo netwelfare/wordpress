@@ -1,0 +1,3 @@
+1 右侧的小工具是WordPress的功能
+2 公告是function/breadcrumb.php里面的内容控制
+3 正文和侧栏顶部没有对齐是因为广告位的原因，可以在后台设置
