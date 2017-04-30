@@ -1,0 +1,30 @@
+﻿<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="content-type" content="text/html;charset=utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+  <title>bombus简介</title>
+  
+  
+  <link id="favicon" href="bombus.ico" rel="icon" type="image/x-icon">
+  </head>
+ <body>
+<h3>（一）产生背景</h3>
+在与kylin对接过程中，需要拼接sql，在程序中拼接sql不是一件容易的事情，而通过bombus来实现sql的拼接将会更容易。
+bombus包含了规范，这样以来：无论是谁接手，那么很容易看懂前人写的sql内容；自己写的sql语句，后来人也很容易读懂。
+
+<h3>（二）理论基础</h3>
+bombus基于"sql结构化"思想，是其具体实现形式。简单的来说，sql结构化思想，将组成sql的字符划分为：显示字符和控制字符两部分，这两种类型的字符将一条sql语句划分出了骨和肉从而变的有结构。
+
+<h3>（三）命名故事</h3>
+这个sql引擎为什么叫bombus呢？因为bombus包含三层含义：<br /><br />
+(1) bombus，是一个动物的名称。基于经验来说，拥有动物相关的品牌或者形象更容易发展起来，例如：Linux之企鹅，mysql之海豚，百度之熊(爪)，阿里之天猫商城，蚂蚁金服，菜鸟物流，QQ之企鹅，雅虎，搜狐，搜狗，猎豹等等。为了让这个工具有更好的发展，所以我选择了bombus这个名字。<br /><br />
+(2) bombus，互联网产品往往有一个隐含的属性，那就是域名。而我手上正好就有bombus.cn域名，所以我选择bombus这个名字。<br /><br />
+(3) bombus，拼写简单，即使不知道它怎么读【注：音标是['bɒmbəs]】，相信大家记住bom，bus这两个词根应该是不困难的。
+<h3>（四）使用范围</h3>
+sql的拼写；<br /><br />
+其他"控制+表现"的场景；
+<h3>（五）体量和依赖</h3>
+目前总数为80个左右的类，保证足够的体量才能保证功能的强大。目前仅仅依赖ognl。
+ <h3>未完待续...</h3>
+ </body>
+ </html>
