@@ -3,8 +3,8 @@
 	<meta http-equiv="Content-Type" content="<?php bloginfo('html_type'); ?>; charset=<?php bloginfo('charset'); ?>" />
 	<link href="<?php bloginfo('stylesheet_url'); ?>?20150305" rel="stylesheet" type="text/css" />
 	<link rel="stylesheet" href="<?php bloginfo('stylesheet_directory'); ?>/includes/<?php echo get_option('mytheme_colour'); ?>.css" type="text/css">
-	<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/ntes/css/common.css?201602172119" />
-	<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/ntes/css/core.css?201602172119" />
+	<!--<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/ntes/css/common.css?201602172119" />
+	<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/ntes/css/core.css?201602172119" />-->
 	<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/jquery.min.js"></script>
 	<script type="text/javascript">window.jQuery || document.write('<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/jquery.js">\x3C/script>')</script>
 	<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/jquery_cmhello.js"></script>
