@@ -116,8 +116,8 @@ if(have_posts()): while (have_posts()&&$pos<=6) : the_post(); update_post_caches
 				<?php   $custom_fields = get_post_custom_keys($post_id);
 				if (!in_array ('copyright', $custom_fields)) : ?>
 				<div class="postcopyright">
-					<p><strong> 声明: </strong> 本文由<a href="<?php bloginfo('home'); ?>">金丝燕网</a>原创编译，转载请保留链接: <a href="<?php the_permalink()?>" title=<?php the_title(); ?>><?php the_title(); ?></a>，更多交流: 
-					<a href="https://jq.qq.com/?_wv=1027&k=47lY8Hg" rel="nofollow" target="_blank" >Java学习群</a> </p>
+					<p><strong> 声明: </strong> 本文由<a href="<?php bloginfo('home'); ?>">金丝燕网</a>原创编译，转载请保留链接: <a href="<?php the_permalink()?>" title=<?php the_title(); ?>><?php the_title(); ?></a>，更多交流请加群：278721352
+					 </p>
 				</div>
 				
 			<?php else: ?>
