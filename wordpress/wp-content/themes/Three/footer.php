@@ -22,7 +22,7 @@
 		
 <footer id="colophon" class="site-footer" role="contentinfo">
 	<div class="site-info">			
-			Copyright ©&nbsp; <?php date('Y'); bloginfo('name');?><span class="footer-tag">&nbsp; | &nbsp; Powered by <a href="http://muxiulin.cn/" title="木秀林" target="_blank" rel="nofollow">muxiulin.com</a> &nbsp; | &nbsp;  <?php echo stripslashes(get_option('ygj_icp')); ?></span>
+			Copyright ©&nbsp; <?php date('Y'); bloginfo('name');?><span class="footer-tag">&nbsp; | &nbsp; Powered by <a href="http://muxiulin.cn/" title="木秀林" target="_blank" rel="nofollow">muxiulin.cn</a> &nbsp; | &nbsp;  <?php echo stripslashes(get_option('ygj_icp')); ?></span>
 		</div>
 </footer>
 
