@@ -1,11 +1,11 @@
 <div id="footer-widget-box">
 	<div class="footer-widget">
-	<?php wp_reset_query();if ( is_home()){ ?>	
+	<?php wp_reset_query();{ ?>	
 		<div id="links">
 	<ul>
 		<li id="linkcat-2" class="linkcat"><h2>友情链接</h2>
 			<ul class="xoxo blogroll">
-				<li><strong>友情链接：</strong></li>
+				<li><strong>免责声明：Java辅导网是一个非盈利性网站，网站所有作品均由热心网友网上搜集共同更新，仅供读者预览及学习交流使用，下载后请24小时内删除，如果喜欢请购买正版资源。原作者如果认为本站侵犯了您的版权，请QQ告知，我们会立即删除!</strong></li>
 				<?php
 				if(function_exists('wp_hot_get_links')){
 				wp_hot_get_links();
