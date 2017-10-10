@@ -1,4 +1,9 @@
 1 右侧的小工具是WordPress的功能
 2 公告是function/breadcrumb.php里面的内容控制
 3 正文和侧栏顶部没有对齐是因为广告位的原因，可以在后台设置。这个不是广告位，而是幻灯片，需要关闭幻灯片就可以了。
-4 
+4 在eclipse新建PHP工程的时候，直接选择已经存在的工程就可以了，然后在相应的文件夹里面生成setting配置文件便将一个普通文件变成了工程文件。
+5 修改域名
+UPDATE mxl_options SET option_value = replace( option_value, 'http://muxiulin.cn', 'http://devilfish.com.cn' ) WHERE option_name = 'home' OR option_name = 'siteurl';
+UPDATE mxl_posts SET post_content = replace( post_content, 'http://muxiulin.cn', 'http://devilfish.com.cn' ) ;
+UPDATE mxl_posts SET guid = replace( guid, 'http://muxiulin.cn', 'http://devilfish.com.cn' ) ;
+6 代码统计，PHP有807，js有363，css有210
