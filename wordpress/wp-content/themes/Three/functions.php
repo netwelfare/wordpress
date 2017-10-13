@@ -552,4 +552,5 @@ function ality_ding(){
     }
     die;
 }
+include("inc/shortcode.php");
 ?>
