@@ -540,7 +540,14 @@ function wp_register( $before = '<li>', $after = '</li>', $echo = true ) {
 		else
 			$link = '';
 	} elseif ( current_user_can( 'read' ) ) {
-		$link = $before . '<a href="' . admin_url() . '">' . __('Site Admin') . '</a>' . $after;
+		#$link = $before . '<a href="' . admin_url() . '">' . __('Site Admin') . '</a>' . $after;
+		$user = wp_get_current_user();
+	    $user_level = (int) $user->user_level;
+	    if ($user_level == 0){
+	        $link = $before . '<a href="' . admin_url() . 'profile.php">' . '个人中心' . '</a>' . $after;
+	    }else{
+	        $link = $before . '<a href="' . admin_url() . '">' . __('Site Admin') . '</a>' . $after;
+	    }
 	} else {
 		$link = '';
 	}
@@ -2843,7 +2850,7 @@ function wp_site_icon() {
  * in the background, to perform DNS lookups or to begin the connection
  * handshake (DNS, TCP, TLS) in the background.
  *
- * These performance improving indicators work by using `<link rel"…">`.
+ * These performance improving indicators work by using `<link rel"...">`.
  *
  * @since 4.6.0
  */

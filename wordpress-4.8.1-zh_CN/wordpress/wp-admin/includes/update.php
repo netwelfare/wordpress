@@ -251,6 +251,7 @@ function update_nag() {
 			network_admin_url( 'update-core.php' ),
 			esc_attr__( 'Please update WordPress now' )
 		);
+		echo "<div class='update-nag'>$msg</div>";
 	} else {
 		$msg = sprintf(
 			/* translators: 1: Codex URL to release notes, 2: new WordPress version */
@@ -263,7 +264,7 @@ function update_nag() {
 			$cur->current
 		);
 	}
-	echo "<div class='update-nag'>$msg</div>";
+	
 }
 
 // Called directly from dashboard

@@ -81,7 +81,16 @@ function _wp_menu_output( $menu, $submenu, $submenu_as_parent = true ) {
 			$class[] = 'wp-first-item';
 			$first = false;
 		}
-
+		
+		$user = wp_get_current_user();
+		if($user != null && $user->id > 0 ){
+		    $user_level = (int) $user->user_level;
+		    if ($user_level == 0){
+		        if($item[0] == "仪表盘"){
+		            continue;
+		        }
+		    }
+		}	
 		$submenu_items = array();
 		if ( ! empty( $submenu[$item[2]] ) ) {
 			$class[] = 'wp-has-submenu';
@@ -233,12 +242,18 @@ function _wp_menu_output( $menu, $submenu, $submenu_as_parent = true ) {
 		}
 		echo "</li>";
 	}
-
-	echo '<li id="collapse-menu" class="hide-if-no-js">' .
-		'<button type="button" id="collapse-button" aria-label="' . esc_attr__( 'Collapse Main menu' ) . '" aria-expanded="true">' .
-		'<span class="collapse-button-icon" aria-hidden="true"></span>' .
-		'<span class="collapse-button-label">' . __( 'Collapse menu' ) . '</span>' .
-		'</button></li>';
+	if($user != null && $user->id > 0 ){
+	    $user_level = (int) $user->user_level;
+	    if ($user_level == 0){
+	    }else
+		{
+			echo '<li id="collapse-menu" class="hide-if-no-js">' .
+				'<button type="button" id="collapse-button" aria-label="' . esc_attr__( 'Collapse Main menu' ) . '" aria-expanded="true">' .
+				'<span class="collapse-button-icon" aria-hidden="true"></span>' .
+				'<span class="collapse-button-label">' . __( 'Collapse menu' ) . '</span>' .
+				'</button></li>';
+		}
+	}
 }
 
 ?>
