@@ -435,9 +435,8 @@ if ( is_multisite() && is_network_admin() && ! IS_PROFILE_PAGE && current_user_c
 		<p class="description"><?php
 			if ( IS_PROFILE_PAGE ) {
 				/* translators: %s: Gravatar URL */
-				$description = sprintf( __( 'You can change your profile picture on <a href="%s">Gravatar</a>.' ),
-					__( 'https://en.gravatar.com/' )
-				);
+				//$description = sprintf( __( 'You can change your profile picture on <a href="%s">Gravatar</a>.' ), __( 'https://en.gravatar.com/' ));
+				$description = '';
 			} else {
 				$description = '';
 			}
