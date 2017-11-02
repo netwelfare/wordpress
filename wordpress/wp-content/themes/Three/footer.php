@@ -36,11 +36,7 @@
         <!--<a href="<?php echo stripslashes(get_option('ygj_lyburl')); ?>#respond" class="tools_comments" title="给我留言" target="_blank" rel="nofollow"></a>-->
     <?php } ?>
 </div>
-<?php if (is_single() || is_page() ) { ?>
-<?php get_template_part( 'inc/share' ); ?>
-<?php get_template_part( 'inc/shang' ); ?>
-<script>window._bd_share_config={"common":{"bdSnsKey":{"tsina":"2363344102"},"bdText":"","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"1","bdSize":"32"},"share":{}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script>
-<?php } ?>
+
 <?php if (is_home() || is_archive() || is_search()) { ?>
 <script type="text/javascript">
     document.onkeydown = chang_page;function chang_page(e) {
