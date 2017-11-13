@@ -22,7 +22,9 @@
 		
 <footer id="colophon" class="site-footer" role="contentinfo">
 	<div class="site-info">			
-			Copyright ©&nbsp; <?php date('Y'); bloginfo('name');?><span class="footer-tag">&nbsp; | &nbsp; Powered by <a href="http://muxiulin.cn/" title="木秀林" target="_blank" rel="nofollow">muxiulin.cn</a> &nbsp; | &nbsp;  <?php echo stripslashes(get_option('ygj_icp')); ?></span>
+			Copyright ©&nbsp; <?php date('Y'); bloginfo('name');?><span class="footer-tag"> &nbsp; | &nbsp;  <?php echo stripslashes(get_option('ygj_icp')); ?></span>
+			&nbsp; | &nbsp;
+			<?php $users=wp_list_authors('echo=0&exclude_admin=0&hide_empty=0&optioncount=1&style=0');$users=split(',',$users); echo '本站有', count($users), '位注册用户'; ?>
 		</div>
 </footer>
 
