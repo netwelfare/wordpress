@@ -27,11 +27,28 @@
 <![endif]-->
 <?php wp_head(); ?>
 
+<!-- Piwik -->
+<script type="text/javascript">
+  var _paq = _paq || [];
+  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="//devilfish.cn/";
+    _paq.push(['setTrackerUrl', u+'piwik.php']);
+    _paq.push(['setSiteId', '1']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<!-- End Piwik Code -->
+
+
 <script>
 var _hmt = _hmt || [];
 (function() {
   var hm = document.createElement("script");
-  hm.src = "https://hm.baidu.com/hm.js?c7547f31f10e30e04f8f8690cd29825d";
+  hm.src = "https://hm.baidu.com/hm.js?30eddefda57c5f266096db3e05407cbd";
   var s = document.getElementsByTagName("script")[0]; 
   s.parentNode.insertBefore(hm, s);
 })();
@@ -44,15 +61,6 @@ var _hmt = _hmt || [];
 	<header id="masthead" class="site-header">
 	<div id="top-header">
 		<div class="top-nav">
-			<hgroup class="logo-site">
-				<h1 class="site-title">
-				<!--
-					<a href="<?php bloginfo('home'); ?>/">
-						<img src="<?php bloginfo('template_directory'); ?>/images/logo.png" alt="<?php bloginfo('name'); ?>">
-					</a>
-				-->
-				</h1>
-			</hgroup><!-- .logo-site -->
 			<div class="top_right">
 				<?php if (get_option('ygj_ddad') == '关闭') { ?>
 				<?php { echo ''; } ?>
@@ -62,13 +70,7 @@ var _hmt = _hmt || [];
 	</div><!-- #top-header -->
 	<div id="menu-box">
 		<div id="top-menu">
-			<div id="top-logo">
-				<!--
-				<a href="<?php bloginfo('home'); ?>/">
-					<img src="<?php bloginfo('template_directory'); ?>/images/logo.png" alt="<?php bloginfo('name'); ?>">
-				</a>
-				-->
-			</div>			
+					
 			<div id="site-nav-wrap">
 				<div id="sidr-close">
 					<a href="<?php bloginfo('home'); ?>/#sidr-close" class="toggle-sidr-close">关闭</a>

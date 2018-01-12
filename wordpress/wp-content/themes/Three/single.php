@@ -36,7 +36,7 @@
 			</div>
 	<div class="clear"></div>
 	<br />
-	<!--<?php get_template_part( 'inc/social' ); ?>-->
+	
 	<div class="xiaoshi">
 		<div class="single_banquan">	
 			<strong>版权声明：</strong>本文版权由<a href="<?php bloginfo('home'); ?>"><?php bloginfo('name');?></a>所有，转载请保留链接：<a href="<?php the_permalink() ?>" rel="bookmark" title="本文固定链接 <?php the_permalink() ?>"><?php the_title(); ?> </a>
