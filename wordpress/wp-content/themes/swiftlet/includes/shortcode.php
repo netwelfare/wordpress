@@ -200,7 +200,7 @@ $(".toggle").click(function(){$(this).next().slideToggle('slow')});
 </div>
 <?php }
 function hcms_shortcode_page(){
-  add_theme_page("Ssmay短代码提示","Ssmay短代码提示",'edit_themes','hcms_shortcode_page','hcms_Shortpage'); 
+  add_theme_page("swiftlet短代码提示","swiftlet短代码提示",'edit_themes','hcms_shortcode_page','hcms_Shortpage'); 
 }
 add_action('admin_menu','hcms_shortcode_page');
 
