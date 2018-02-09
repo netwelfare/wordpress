@@ -16,8 +16,7 @@ query_posts($args);?>
 				<?php $image = get_post_meta($post->ID, 'show', true); ?>
 				<img src="<?php echo $image; ?>"width="200" height="154" alt="<?php the_title(); ?>"/>
 				<?php else: ?>
-				<?php if (has_post_thumbnail()) { the_post_thumbnail('home-thumb' ,array( 'alt' => trim(strip_tags( $post->post_title )), 'title' => trim(strip_tags( $post->post_title )),'class' => 'home-thumb')); }
-				else { ?>
+				<?php { ?>
 					 <img src="<?php echo catch_first_image() ?>" alt="<?php the_title(); ?>" width="200" height="154" />
 				<?php } ?>
 				<?php endif; ?>
