@@ -1,5 +1,5 @@
 <?php
-$themename = "Ssmay";
+$themename = "swiftlet";
 $shortname = "swt";
 $categories = get_categories('hide_empty=0&orderby=name');
 $wp_cats = array();
@@ -374,7 +374,7 @@ else if( 'reset' == $_REQUEST['action'] ) {
 die;
 }
 }
-add_theme_page($themename." Options", "Ssmay主题设置", 'edit_themes', basename(__FILE__), 'mytheme_admin');
+add_theme_page($themename." Options", "swiftlet主题设置", 'edit_themes', basename(__FILE__), 'mytheme_admin');
 }
 function mytheme_add_init() {
 $file_dir=get_bloginfo('template_directory');
@@ -390,7 +390,7 @@ if ( $_REQUEST['reset'] ) echo '<div id="message" class="updated fade"><p><stron
 <div class="wrap rm_wrap">
 <div id="icon-themes" class="icon32"><br></div>
 <h2><?php echo $themename; ?>主题设置</h2>
-<p>当前使用主题: Ssmay | 设计者: <a href="http://wanlimm.com" target="_blank">高时银博客</a> | <a href="http://wanlimm.com/ssmay_zhuti_jiaochen" target="_blank">查看主题更新</a> | <a href="http://wanlimm.com/ssmay_zhuti_jiaochen" target="_blank">主题指南（必看）</a></p> 
+<p>当前使用主题: swiftlet | 设计者: <a href="http://swiftlet.net" target="_blank">金丝燕网</a> </p> 
 <?php
 function show_category() {
 	global $wpdb;
