@@ -111,7 +111,7 @@ $(".toggle").click(function(){$(this).next().slideToggle('slow')});
 </script>
 <div class="wrap">
 <div id="icon-themes" class="icon32"><br></div>
-<h2>Ssmay主题短代码</h2>
+<h2>swiftlet主题短代码</h2>
     <div style="padding-left:20px;">
 	<p>写文章时如果需要可以加入下列短代码（在“可视化”与“HTML”两种模式均可直接加入）</p>
 <fieldset>
@@ -192,7 +192,7 @@ $(".toggle").click(function(){$(this).next().slideToggle('slow')});
                <tr><td width="80">乐视网：</td><td width="714"><code>[embed]http://www.letv.com/player/x725792.swf [/embed]</code></td></tr>
                <tr><td width="80">新浪视频：</td><td width="714"><code>[embed]http://you.video.sina.com.cn/api/sinawebApi/outplayrefer.php/vid=XXX/s.swf[/embed]</code></td></tr>
            </table>    
-        </fieldset 
+        </fieldset> 
       </div>
 </fieldset>   
     </div>
