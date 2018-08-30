@@ -1,7 +1,4 @@
 <?php get_header(); ?>
-
-
-
 <div id="wrapper" class="clearfix">
 	<div id="breadcrumbs" class="con_box clearfix">
 		<div class="bcrumbs"><strong><a href="<?php bloginfo('home'); ?>" title="返回首页">home</a></strong>
@@ -53,7 +50,7 @@
 				<?php } else { include(TEMPLATEPATH . '/includes/adt.php'); } ?>
 				
 <!--相关文章开始-->
-<!--	
+	
 <div class="similarity">
 <h5>相关文章：</h5>
 <?php
@@ -97,15 +94,8 @@ if(have_posts()): while (have_posts()&&$pos<=6) : the_post(); update_post_caches
 <?php $pos++;endwhile;wp_reset_query();?>
 <?php } ?>
 </div>
--->
+
 <!--相关文章结束-->
-
-
-
-
-
-				
-				<!--<br /><div class="bshare-custom icon-medium"><div class="bsPromo bsPromo2"></div><a title="分享到" href="http://www.bShare.cn/" id="bshare-shareto" class="bshare-more">分享到</a><a title="分享到QQ空间" class="bshare-qzone"></a><a title="分享到新浪微博" class="bshare-sinaminiblog"></a><a title="分享到开心网" class="bshare-kaixin001" href="javascript:void(0);"></a><a title="分享到人人网" class="bshare-renren"></a><a title="分享到搜狐微博" class="bshare-sohuminiblog" href="javascript:void(0);"></a><a title="分享到网易微博" class="bshare-neteasemb" href="javascript:void(0);"></a><a title="更多平台" class="bshare-more bshare-more-icon more-style-addthis"></a><span class="BSHARE_COUNT bshare-share-count" style="float: none; ">12.8K</span></div>-->
 				
 				<!-- 图片广告 --> 
 				<!-- <?php if (get_option('swt_adt') == 'Hide') { ?>
