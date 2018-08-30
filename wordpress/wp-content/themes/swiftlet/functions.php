@@ -74,7 +74,7 @@ function catch_first_image() {global $post, $posts;$first_img = '';
 	$output = preg_match_all('/<img.+src=[\'"]([^\'"]+)[\'"].*>/i', $post->post_content, $matches);
 	$first_img = $matches [1] [0];
 	if(empty($first_img)){
-		$random = mt_rand(1, 10);
+		$random = mt_rand(1, 25);
 		echo get_bloginfo ( 'stylesheet_directory' );
 		echo '/images/random/'.$random.'.jpg';
 		//$first_img = "/images/default.jpg";
