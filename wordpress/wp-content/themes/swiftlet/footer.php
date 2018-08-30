@@ -27,7 +27,7 @@
 			原作者如果认为本站侵犯了您的版权,请及时告知,本站会立即删除!
 		</p>
         <p>
-            金丝燕网站 Copyright (c) 2014  www.swiftlet.net  All rights reserved 
+            金丝燕网站 Copyright (c) 2018  www.swiftlet.net  All rights reserved 
         </p>
 <!-- /powered -->
    </div>
@@ -43,7 +43,7 @@
 </div>
 	<script type="text/javascript" src="http://swiftlet.net/wp-content/themes/swiftlet/ntes/js/easyCore.js"></script>
 	<script type="text/javascript" src="http://swiftlet.net/wp-content/themes/swiftlet/ntes/js/dialog.js"></script>
-	<!--
+	
 	<script type="text/javascript">
 	(function(window, $, undefined){
 		$("body").delegate("#closePop","click",function(){$.dialog();});
@@ -58,10 +58,10 @@
 		
 		var ck = $.cookie("hasVisitedx");
 		if(ck==1) return;
-		setTimeout(function(){showDialog("网站公告", "<p><a href='http://swiftlet.net/archives/1900' target='_blank'>您好，欢迎关注：Java高级知识教程（第二期）......</a></p><p class='mtb10'></p>");},30000);
+		setTimeout(function(){showDialog("网站公告", "<p><a href='http://swiftlet.net/archives/2704' target='_blank'>您好，欢迎关注：Java高级知识教程（第二期）......</a></p><p class='mtb10'></p>");},30000);
 		$.cookie("hasVisitedx","1",{expires:2, path:"/"});
 	})(window, jQuery);
 	</script>
-	-->
+	
 </body>
 </html>
