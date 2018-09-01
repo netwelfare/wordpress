@@ -1,21 +1,5 @@
 <div id="sider" class="fr">
 	
-
-<!--<div class="twitbar">
-                     <ul>分享到:</ul>
-                    <div class="bshare-custom icon-medium">
-                          <a title="分享到新浪微博" class="bshare-sinaminiblog"></a><a title="分享到腾讯微博" 
-
-class="bshare-qqmb" href="javascript:void(0);"></a><a title="分享到QQ空间" class="bshare-qzone" href="javascript:void
-
-(0);"></a><a title="分享到人人网" class="bshare-renren"></a><a title="更多平台" class="bshare-more bshare-more-icon more-
-
-style-addthis"></a><span class="BSHARE_COUNT bshare-share-count" style="float: none; ">11.5K</span>
-                     </div>
-</div>-->
-			
-			
-
 <?php if (get_option('swt_email') == 'Hide') { ?>
 		<?php { echo ''; } ?>
 		<?php } else { include(TEMPLATEPATH . '/includes/feed_email.php'); } ?>
@@ -58,7 +42,7 @@ style-addthis"></a><span class="BSHARE_COUNT bshare-share-count" style="float: n
 		<ul class="cooltab_nav sj_nav clearfix">	
 		   		
 			<li><a href="#" class="active" title="new_art">最新文章</a></li>
-			<!--<li><a href="#" title="hot_art">学习方法</a></li>-->
+			<li><a href="#" title="hot_art">最新评论</a></li>
 		</ul>
         <div id="new_art" class="com_cont">  
             <ul>
@@ -70,17 +54,17 @@ style-addthis"></a><span class="BSHARE_COUNT bshare-share-count" style="float: n
 				<?php endwhile; ?>
 			</ul>      
 		</div>	
-       	<!--
+       	
 		<div id="hot_art" class="com_cont">   
 			<ul>
-			    <?php /* query_posts('posts_per_page=8&caller_get_posts=1&orderby=comment_count'); */  query_posts('posts_per_page=10&caller_get_posts=1&cat=73'); ?>
+			    <?php query_posts('posts_per_page=8&caller_get_posts=1&orderby=comment_count'); //query_posts('posts_per_page=10&caller_get_posts=1&cat=73'); ?>
 				<?php while (have_posts()) : the_post(); ?>
 				<li>
 				<a target="_blank" href="<?php the_permalink(); ?>" class="title" title="<?php the_title(); ?>"><?php echo cut_str($post->post_title,34); ?></a>
 				</li>
 				<?php endwhile; ?>
 			</ul>                    
-		</div>-->
+		</div>
       	
 	</div>
 	
@@ -93,21 +77,21 @@ style-addthis"></a><span class="BSHARE_COUNT bshare-share-count" style="float: n
 	
 	
 	
-	<!--
+	
 	<div class="con_box hot_box"> 				
 		<h3>热门文章</h3>		
 		<div id="rand_art" >  
 			<ul>
-				<?php  //query_posts('meta_key=post_views_count&orderby=meta_value_num&order=DESC'); //query_posts('posts_per_page=8&caller_get_posts=1&orderby=rand'); ?>
-				<?php  //while (have_posts()) : the_post(); ?>
+				<?php  query_posts('meta_key=post_views_count&orderby=meta_value_num&order=DESC'); query_posts('posts_per_page=8&caller_get_posts=1&orderby=rand'); ?>
+				<?php  while (have_posts()) : the_post(); ?>
 				<li>
-				    <a target="_blank" href="<?php //the_permalink(); ?>" class="title" title="<?php //the_title();?>"><?php //echo cut_str($post->post_title,34); ?></a>
+				    <a target="_blank" href="<?php the_permalink(); ?>" class="title" title="<?php the_title();?>"><?php echo cut_str($post->post_title,34); ?></a>
 				</li>
-				<?php //endwhile; ?>
+				<?php endwhile; ?>
 			</ul>
 		</div>   
 	</div>
-	-->  
+	 
 	
 	<!-- 侧边栏(下)广告开始-->
 	<?php wp_reset_query();  ?>
