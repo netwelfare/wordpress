@@ -58,7 +58,7 @@
 		
 		var ck = $.cookie("hasVisitedx");
 		if(ck==1) return;
-		setTimeout(function(){showDialog("网站公告", "<p><a href='http://swiftlet.net/archives/2704' target='_blank'>您好，欢迎关注：Java高级知识教程（第二期）......</a></p><p class='mtb10'></p>");},30000);
+		setTimeout(function(){showDialog("网站公告", "<p><a href='http://swiftlet.net/archives/2704' target='_blank'>您好，欢迎关注：《冲击名企，冲击架构师》......</a></p><p class='mtb10'></p>");},30000);
 		$.cookie("hasVisitedx","1",{expires:2, path:"/"});
 	})(window, jQuery);
 	</script>

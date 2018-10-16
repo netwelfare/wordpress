@@ -107,7 +107,7 @@ if(have_posts()): while (have_posts()&&$pos<=6) : the_post(); update_post_caches
 				if (!in_array ('copyright', $custom_fields)) : ?>
 				
 				<div class="postcopyright">
-					<p><strong> 声明: </strong> 本文由<a href="<?php bloginfo('home'); ?>">金丝燕网</a>原创编译，转载请保留链接: <a href="<?php the_permalink()?>" title=<?php the_title(); ?>><?php the_title(); ?></a>，更多交流请加群：849962329，2018年新群
+					<p><strong> 声明: </strong><br />本文由<a href="<?php bloginfo('home'); ?>">金丝燕网</a>原创编译，转载请保留链接: <a href="<?php the_permalink()?>" title=<?php the_title(); ?>><?php the_title(); ?></a><br />本站技术交流群，力争解决每一个问题：<a target="_blank" href="//shang.qq.com/wpa/qunwpa?idkey=bf4808719a7cef5d07e40f5af2c8fab23f6810ad14494a9aad400dcb008dc2d9"><img border="0" src="//pub.idqqimg.com/wpa/images/group.png" alt="JAVA交流" title="JAVA交流"></a>
 					 </p>
 				</div>
 				
