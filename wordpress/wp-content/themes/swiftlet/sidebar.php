@@ -36,6 +36,7 @@
 		   		
 			<li><a href="#" class="active" title="new_art">最新文章</a></li>
 			<li><a href="#" title="hot_art">最新评论</a></li>
+			<li><a href="#" title="rand_art">随机文章</a></li>
 		</ul>
         <div id="new_art" class="com_cont">  
             <ul>
@@ -51,6 +52,17 @@
 		<div id="hot_art" class="com_cont">   
 			<ul>
 			    <?php query_posts('posts_per_page=8&caller_get_posts=1&orderby=comment_count'); //query_posts('posts_per_page=10&caller_get_posts=1&cat=73'); ?>
+				<?php while (have_posts()) : the_post(); ?>
+				<li>
+				<a target="_blank" href="<?php the_permalink(); ?>" class="title" title="<?php the_title(); ?>"><?php echo cut_str($post->post_title,34); ?></a>
+				</li>
+				<?php endwhile; ?>
+			</ul>                    
+		</div>
+		
+		<div id="rand_art" class="com_cont">   
+			<ul>
+			    <?php query_posts('posts_per_page=8&caller_get_posts=1&orderby=rand'); //query_posts('posts_per_page=10&caller_get_posts=1&cat=73'); ?>
 				<?php while (have_posts()) : the_post(); ?>
 				<li>
 				<a target="_blank" href="<?php the_permalink(); ?>" class="title" title="<?php the_title(); ?>"><?php echo cut_str($post->post_title,34); ?></a>
