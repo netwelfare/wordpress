@@ -8,27 +8,20 @@
 
 <!--
 <div class="huanden4"> 			         
-		<li>	<script async src=""></script>
-
-<ins class="adsbygoogle"
-     style="display:inline-block;width:250px;height:250px"
-     data-ad-client="ca-pub-3970134420592904"
-     data-ad-slot="8764736073"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+<li>
+<img src="http://www.runoob.com/wp-content/uploads/2014/07/slide1.png" alt="First slide" width="250px" height="150px">	
 </li>
 </div>
 <div class="clear"></div>
 -->
 
 <!-- 图片缩略图-->
-<!--				
+				
 <div class="twitbar-2">
 <?php //if(function_exists('wp_thumbnails_for_popular_posts')) { wp_thumbnails_for_popular_posts(); } 
 ?>
 </div>	
--->
+
 <!-- 侧边栏(上)广告开始-->  
 		
 		<?php wp_reset_query();  ?>
