@@ -107,7 +107,7 @@ if(have_posts()): while (have_posts()&&$pos<=6) : the_post(); update_post_caches
 				if (!in_array ('copyright', $custom_fields)) : ?>
 				
 				<div class="postcopyright">
-					<p><strong> 声明: </strong><br />本文由<a href="<?php bloginfo('home'); ?>">金丝燕网</a>原创编译，转载请保留链接: <a href="<?php the_permalink()?>" title=<?php the_title(); ?>><?php the_title(); ?></a><br />本站技术交流群，致力于打造一个良好学习氛围的社区文化：<a target="_blank" href="http://swiftlet.net/about"><img border="0" alt="JAVA交流" title="JAVA交流">技术交流QQ群，微信群</a>
+					<p><strong> 声明: </strong><br />本文由<a href="<?php bloginfo('home'); ?>">金丝燕网</a>原创编译，转载请保留链接: <a href="<?php the_permalink()?>" title=<?php the_title(); ?>><?php the_title(); ?></a><br />本站技术交流群，致力于打造一个良好学习氛围的社区文化：<a target="_blank" href="http://swiftlet.net/about">技术交流QQ群，微信群</a>
 					 </p>
 				</div>
 				
