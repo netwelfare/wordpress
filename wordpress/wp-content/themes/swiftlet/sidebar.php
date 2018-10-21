@@ -62,7 +62,7 @@
 		
 		<div id="rand_art" class="com_cont">   
 			<ul>
-			    <?php query_posts('posts_per_page=8&caller_get_posts=1&orderby=rand'); //query_posts('posts_per_page=10&caller_get_posts=1&cat=73'); ?>
+			    <?php query_posts('posts_per_page=8&caller_get_posts=1&orderby=rand'); //query_posts('posts_per_page=10&caller_get_posts=1&cat=73');?>
 				<?php while (have_posts()) : the_post(); ?>
 				<li>
 				<a target="_blank" href="<?php the_permalink(); ?>" class="title" title="<?php the_title(); ?>"><?php echo cut_str($post->post_title,34); ?></a>
@@ -87,7 +87,7 @@
 		<h3>热门文章</h3>		
 		<div id="rand_art" >  
 			<ul>
-				<?php  query_posts('meta_key=post_views_count&orderby=meta_value_num&order=DESC'); query_posts('posts_per_page=8&caller_get_posts=1&orderby=rand'); ?>
+				<?php  query_posts('meta_key=views&orderby=meta_value_num&order=DESC'); //query_posts('posts_per_page=8&caller_get_posts=1&orderby=rand'); ?>
 				<?php  while (have_posts()) : the_post(); ?>
 				<li>
 				    <a target="_blank" href="<?php the_permalink(); ?>" class="title" title="<?php the_title();?>"><?php echo cut_str($post->post_title,34); ?></a>
