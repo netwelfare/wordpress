@@ -34,7 +34,7 @@
    
 
    <div class="footer_right">
-    <a target="_blank" href="http://www.swiftlet.net/"><img atl="金丝燕网" src="/wp-content/themes/swiftlet/images/logo.png" width="150" height="60"></a>
+    <a target="_blank" href="http://www.swiftlet.net/"><img atl="金丝燕网" src="/wp-content/themes/swiftlet/images/swiftlet-logo.png" width="150" height="60"></a>
 	<p>Powered by <a href="http://www.swiftlet.net"  target="_blank">swiftlet</a>.</p>
 	</div>
    <?php wp_footer(); ?>
