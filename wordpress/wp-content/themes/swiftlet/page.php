@@ -12,8 +12,14 @@
 			<?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
             <div class="art_title clearfix">
 				<h1><?php the_title(); ?></h1>
+				<p class="info">
+				<small>作者:</small><?php the_author(); ?> 
+				<small>日期:</small><?php the_time('Y-m-d') ?> 
+				<small>点击:</small><?php post_views(' ', ' 次'); ?>
+				</p>
 			</div>
 			<div class="article_content">
+			<div class="article-tag"></div>
 				<?php the_content(); ?>
 			</div><!--正文-->          
                        
